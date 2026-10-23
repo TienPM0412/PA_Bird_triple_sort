@@ -1,0 +1,17 @@
+[
+  {
+    "BubbleID": 1,
+    "BubbleType": 3,
+    "FishStr": "1,1,1"
+  },
+  {
+    "BubbleID": 2,
+    "BubbleType": 3,
+    "FishStr": "6,6,6"
+  },
+  {
+    "BubbleID": 3,
+    "BubbleType": 3,
+    "FishStr": "2,2,2"
+  }
+]

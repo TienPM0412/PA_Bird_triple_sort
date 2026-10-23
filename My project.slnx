@@ -1,0 +1,6 @@
+﻿<Solution>
+  <Project Path="spine-csharp.csproj" />
+  <Project Path="spine-unity.csproj" />
+  <Project Path="spine-unity-editor.csproj" />
+  <Project Path="Assembly-CSharp.csproj" />
+</Solution>

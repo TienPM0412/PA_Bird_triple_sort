@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4f7bc042d7583a34fa7f875e2bb841d1, type: 3}
+  m_Name: BoosterConfig
+  m_EditorClassIdentifier: Assembly-CSharp::BoosterConfig
+  boosterInfos:
+  - type: 0
+    name: Net
+    description: Collect the bird's nest above
+    levelUnlock: 3
+    icon: {fileID: 21300000, guid: 886ee0ce01b1fb349b9e6c3237394c2b, type: 3}
+    titleIcon: {fileID: 21300000, guid: 344bcf789e60978438d5561d6b11649e, type: 3}
+    amountFirst: 2
+    price: 480
+    amountBuy: 1
+  - type: 1
+    name: Clear
+    description: Clear the bird from the holding area
+    levelUnlock: 5
+    icon: {fileID: 21300000, guid: 3fbdf5d89da84fa4e9c22debad30f571, type: 3}
+    titleIcon: {fileID: 21300000, guid: dc216aba379969b44b749819a50dce91, type: 3}
+    amountFirst: 2
+    price: 420
+    amountBuy: 1
+  - type: 2
+    name: Shuffle
+    description: Bird Shuffle
+    levelUnlock: 7
+    icon: {fileID: 21300000, guid: bd2eeced2196b1f45a362851e951c96f, type: 3}
+    titleIcon: {fileID: 21300000, guid: 9e005e4f695885741ab9651b3c1224d2, type: 3}
+    amountFirst: 2
+    price: 550
+    amountBuy: 1

@@ -1,0 +1,86 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: bird_001_Material
+  m_Shader: {fileID: 4800000, guid: 44534813834bc794b8ef298ce8033a4d, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords:
+  - _GLOWQUALITY_MEDIUM
+  - _GLOW_OFF
+  - _GLOW_SDF_ON
+  - _SOFT_OUTLINE_ON
+  - _SOLID_OUTLINE_ON
+  - _USE8NEIGHBOURHOOD_ON
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _GlowTex:
+        m_Texture: {fileID: 2800000, guid: 4970d5b84b45050459d545b908b3202c, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: 23afadb6a920f2c4c86aa22cad894c10, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _CircleMaskRadius: 0
+    - _CircleMaskSoftness: 0.05
+    - _Cutoff: 0.1
+    - _Fill: 0
+    - _FillPhase: 0
+    - _GlowBrightness: 1
+    - _GlowDither: 0
+    - _GlowDstBlend: 1
+    - _GlowEnabled: 0
+    - _GlowMaskThreshold: 0.5
+    - _GlowQuality: 1
+    - _GlowSdf: 1
+    - _GlowSdfRange: 16
+    - _GlowSoftness: 1.5
+    - _GlowSpread: 0.35
+    - _GlowStencilBit: 128
+    - _GlowWidth: 16
+    - _OutlineDstBlend: 10
+    - _OutlineEnabled: 1
+    - _OutlineMipLevel: 0
+    - _OutlineOpaqueAlpha: 1
+    - _OutlineReferenceTexWidth: 1024
+    - _OutlineSmoothness: 1
+    - _OutlineWidth: 8
+    - _SoftOutline: 1
+    - _SoftOutlineFalloff: 1.5
+    - _SoftOutlineSpread: 0
+    - _SoftOutlineStrength: 1
+    - _SoftOutlineWidth: 15
+    - _SolidOutline: 1
+    - _SolidOutlineStrength: 0
+    - _StencilComp: 8
+    - _StencilRef: 1
+    - _StraightAlphaInput: 0
+    - _ThresholdEnd: 0.25
+    - _Use8Neighbourhood: 1
+    - _UseScreenSpaceOutlineWidth: 0
+    m_Colors:
+    - _CircleMaskCenter: {r: 0, g: 0, b: 0, a: 0}
+    - _FillColor: {r: 1, g: 1, b: 1, a: 1}
+    - _GlowColor: {r: 1, g: 0.85, b: 0.15, a: 1}
+    - _OutlineColor: {r: 1, g: 1, b: 1, a: 1}
+    - _SoftOutlineColor: {r: 0, g: 0, b: 0, a: 0.2}
+    - _SoftOutlineOffset: {r: 0, g: -0.04, b: 0, a: 0}
+  m_BuildTextureStacks: []

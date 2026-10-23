@@ -1,0 +1,47 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a5c1beba3c8b492438844a3c441f8e4e, type: 3}
+  m_Name: BirdDataSO
+  m_EditorClassIdentifier: Assembly-CSharp::BirdDataSO
+  birds:
+  - birdType: 1
+    birdId: 1
+    spriteIcon: {fileID: 21300000, guid: 4f824e428cc8d104a850a960f72c8ca2, type: 3}
+    skeletonDataAsset: {fileID: 11400000, guid: 30e2d4c95e9a4d6458c71c8ad3065f7e, type: 2}
+  - birdType: 2
+    birdId: 2
+    spriteIcon: {fileID: 21300000, guid: 2992b9ee4489fb74487ee0f2d8e5dec6, type: 3}
+    skeletonDataAsset: {fileID: 11400000, guid: 933947a8655c2b14490f556c056639dc, type: 2}
+  - birdType: 3
+    birdId: 3
+    spriteIcon: {fileID: 21300000, guid: 5774cb0889938a14fb9cf8574940cc60, type: 3}
+    skeletonDataAsset: {fileID: 11400000, guid: b34aa592856618e40bfeadb626f7ae79, type: 2}
+  - birdType: 4
+    birdId: 4
+    spriteIcon: {fileID: 21300000, guid: 7d52e83acd5e45749a296a1d933df98a, type: 3}
+    skeletonDataAsset: {fileID: 11400000, guid: 3ee24d80a3f02df449323e4f4bbfe801, type: 2}
+  - birdType: 5
+    birdId: 5
+    spriteIcon: {fileID: 21300000, guid: 9eabd1bcf36c0054eb267592a189a760, type: 3}
+    skeletonDataAsset: {fileID: 11400000, guid: 1eca3260e4724134ba75d5cd126b1495, type: 2}
+  - birdType: 6
+    birdId: 6
+    spriteIcon: {fileID: 21300000, guid: c6caa3d8f3387de4883706d766d3dfea, type: 3}
+    skeletonDataAsset: {fileID: 11400000, guid: ef07d6ee5674d9b4f8a0919768a3524a, type: 2}
+  - birdType: 7
+    birdId: 7
+    spriteIcon: {fileID: 21300000, guid: 3d75e85bba82fd7408ccd82802bed75c, type: 3}
+    skeletonDataAsset: {fileID: 11400000, guid: 12d0827eeab467b42906ef4afa3ce15f, type: 2}
+  - birdType: 8
+    birdId: 8
+    spriteIcon: {fileID: 21300000, guid: fc15245f55479804ea9b764e31271982, type: 3}
+    skeletonDataAsset: {fileID: 11400000, guid: 81479739149474e4e80b761bdda3b159, type: 2}

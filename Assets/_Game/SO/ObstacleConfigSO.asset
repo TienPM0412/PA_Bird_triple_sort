@@ -1,0 +1,87 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3e963d4218650b14b86e4103f5641107, type: 3}
+  m_Name: ObstacleConfigSO
+  m_EditorClassIdentifier: Assembly-CSharp::ObstacleConfigSO
+  obstacles:
+  - type: 1
+    prefab: {fileID: 4971359356648380519, guid: 3d84a3df71807fe43a77a8587d02d7dd, type: 3}
+  - type: 2
+    prefab: {fileID: 3282828811174069349, guid: 2d78ef9708b8c244a86269720fdae838, type: 3}
+  - type: 3
+    prefab: {fileID: 406144798007012953, guid: cea447b1d317c7e469fce1bd6dc63aac, type: 3}
+  - type: 4
+    prefab: {fileID: 3429837953866806454, guid: d4b0d36e8ae4d0c4d92289c4554e67fc, type: 3}
+  - type: 5
+    prefab: {fileID: -8655203124132252025, guid: e9e5c9a45b2b07545ae54ce9a1139e22, type: 3}
+  - type: 6
+    prefab: {fileID: 668255942477261586, guid: c5369684067c6174e82c8640573a1f6d, type: 3}
+  - type: 7
+    prefab: {fileID: 6929855105905144667, guid: 3db354de8b282c646b51a4b85ba2363d, type: 3}
+  - type: 8
+    prefab: {fileID: 9185821667884398659, guid: aad6055917bb27c4db2caf0c39d55c46, type: 3}
+  - type: 9
+    prefab: {fileID: 7599915531587544528, guid: ae451d21859677a4fb986debbdf5cf63, type: 3}
+  - type: 10
+    prefab: {fileID: 8909305764489681613, guid: d9e335d057efdb043aba6db064c89490, type: 3}
+  obstacleDatas:
+  - name: Frozen Egg
+    description: Click on the adjacent bird three times to defrost the ice block
+    icon: {fileID: 21300000, guid: a8109c9fd08290846a19548b8b901206, type: 3}
+    titleIcon: {fileID: 21300000, guid: 68d57f73acac5f74b94c0b648ded7ea1, type: 3}
+    unlockLevel: 4
+  - name: Locked Egg
+    description: Eliminate the egg with a key to unlock the egg locked by a chain.
+    icon: {fileID: 21300000, guid: 120acc971d290a045bbccfedffc5944b, type: 3}
+    titleIcon: {fileID: 21300000, guid: e633701823f388041b0c0782b2dc8e38, type: 3}
+    unlockLevel: 11
+  - name: Hidden Egg
+    description: When the egg fall to the bottom, you can see clearly the bird inside.
+    icon: {fileID: 21300000, guid: 1b483fc1fe816df47bc8197190e868ea, type: 3}
+    titleIcon: {fileID: 21300000, guid: 8bed9f25240e1e94bbc200ca2b8dee88, type: 3}
+    unlockLevel: 20
+  - name: Time Nest
+    description: Complete the Nest before time runs out
+    icon: {fileID: 21300000, guid: 8c92acc8f379351488dec4157c3c58f7, type: 3}
+    titleIcon: {fileID: 21300000, guid: 736c5b14ddc8aa14b97590d50c74fe93, type: 3}
+    unlockLevel: 29
+  - name: Mystery Bird
+    description: Tap to unlock the bird inside
+    icon: {fileID: 21300000, guid: eefc9a0ca929cfe408cd195bd28143cf, type: 3}
+    titleIcon: {fileID: 21300000, guid: 8bed9f25240e1e94bbc200ca2b8dee88, type: 3}
+    unlockLevel: 51
+  - name: Stone
+    description: This rock blocks the tube
+    icon: {fileID: 21300000, guid: e8f4886dbbcfef24981183e90ce70d2c, type: 3}
+    titleIcon: {fileID: 21300000, guid: 68f9a87290e8d224eb1cd8464666b888, type: 3}
+    unlockLevel: 101
+  - name: Big Egg
+    description: 'This Egg can hold more Birds '
+    icon: {fileID: 21300000, guid: cc0096c26328a3c4f8b7847d028ce00f, type: 3}
+    titleIcon: {fileID: 21300000, guid: a0009728b6063ad40ab0df9a6ad72eb5, type: 3}
+    unlockLevel: 151
+  - name: Bind Bird
+    description: "These two birds are stuck together \u2014 tap one and both fly
+      away!"
+    icon: {fileID: 21300000, guid: f9bbf5fe28f89b34f96e199abab586b5, type: 3}
+    titleIcon: {fileID: 21300000, guid: 016f29c2d7d904b4cacca5a2b4e1ec8e, type: 3}
+    unlockLevel: 201
+  - name: Ice Bird
+    description: Match 3 in the nest to break the ice!
+    icon: {fileID: 21300000, guid: fc445761e86e44946b910df6f00ece18, type: 3}
+    titleIcon: {fileID: 21300000, guid: 2050a75af99219d4383f8155b53c22dc, type: 3}
+    unlockLevel: 251
+  - name: Target Bird
+    description: Collect the target bird to reveal what's inside!
+    icon: {fileID: 21300000, guid: 429260c5529899c45bdcccad82a496d4, type: 3}
+    titleIcon: {fileID: 21300000, guid: 170ff799bfb1e3d4498ed28de8941192, type: 3}
+    unlockLevel: 301

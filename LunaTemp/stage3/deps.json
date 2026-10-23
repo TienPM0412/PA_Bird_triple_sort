@@ -1,0 +1,322 @@
+{
+  "ignores": [
+    "C:/Users/admin/My project/LunaTemp/stage3/processed-scripts/Assets/DOTween/Modules/DOTweenModuleAudio.cs",
+    "C:/Users/admin/My project/LunaTemp/stage3/processed-scripts/Assets/DOTween/Modules/DOTweenModulePhysics.cs",
+    "C:/Users/admin/My project/LunaTemp/stage3/processed-scripts/Assets/DOTween/Modules/DOTweenModulePhysics2D.cs",
+    "C:/Users/admin/My project/LunaTemp/stage3/processed-scripts/Assets/DOTween/Modules/DOTweenModuleSprite.cs",
+    "C:/Users/admin/My project/LunaTemp/stage3/processed-scripts/Assets/DOTween/Modules/DOTweenModuleUI.cs",
+    "C:/Users/admin/My project/LunaTemp/stage3/processed-scripts/Assets/DOTween/Modules/DOTweenModuleUnityVersion.cs",
+    "C:/Users/admin/My project/LunaTemp/stage3/processed-scripts/Assets/Spine/Runtime/spine-csharp/AnimationState.cs",
+    "C:/Users/admin/My project/LunaTemp/stage3/processed-scripts/Assets/Spine/Runtime/spine-unity/ISkeletonAnimation.cs",
+    "C:/Users/admin/My project/LunaTemp/stage3/processed-scripts/Assets/Spine/Runtime/spine-unity/Utility/AtlasUtilities.cs",
+    "C:/Users/admin/My project/LunaTemp/stage3/processed-scripts/Assets/Spine/Runtime/spine-unity/Utility/AttachmentCloneExtensions.cs",
+    "C:/Users/admin/My project/LunaTemp/stage3/processed-scripts/Assets/Spine/Runtime/spine-unity/Utility/AttachmentRegionExtensions.cs",
+    "C:/Users/admin/My project/LunaTemp/stage3/processed-scripts/Assets/Spine/Runtime/spine-unity/Utility/SkeletonExtensions.cs",
+    "C:/Users/admin/My project/LunaTemp/stage3/processed-scripts/Assets/Spine/Runtime/spine-unity/Utility/TimelineExtensions.cs"
+  ],
+  "groups": [
+    [
+      "C:/Users/admin/My project/LunaTemp/stage3/processed-scripts/Assets/_Game/Scripts/Bird/Bird.cs",
+      "C:/Users/admin/My project/LunaTemp/stage3/processed-scripts/Assets/_Game/Scripts/Booster/BoosterShuffle.cs",
+      "C:/Users/admin/My project/LunaTemp/stage3/processed-scripts/Assets/_Game/Scripts/Booster/BoosterManager.cs",
+      "C:/Users/admin/My project/LunaTemp/stage3/processed-scripts/Assets/_Game/Scripts/Booster/BoosterClear.cs",
+      "C:/Users/admin/My project/LunaTemp/stage3/processed-scripts/Assets/_Game/Scripts/Booster/BoosterBase.cs",
+      "C:/Users/admin/My project/LunaTemp/stage3/processed-scripts/Assets/_Game/Scripts/Booster/BoosterItemUI.cs",
+      "C:/Users/admin/My project/LunaTemp/stage3/processed-scripts/Assets/_Game/Scripts/Booster/BoosterConfig.cs",
+      "C:/Users/admin/My project/LunaTemp/stage3/processed-scripts/Assets/_Game/Scripts/VariableSystem.cs",
+      "C:/Users/admin/My project/LunaTemp/stage3/processed-scripts/Assets/_Game/Scripts/Manager/LevelManager.cs",
+      "C:/Users/admin/My project/LunaTemp/stage3/processed-scripts/Assets/_Game/Scripts/Booster/BoosterMagnet.cs",
+      "C:/Users/admin/My project/LunaTemp/stage3/processed-scripts/Assets/_Game/Scripts/Top/TopContainer.cs",
+      "C:/Users/admin/My project/LunaTemp/stage3/processed-scripts/Assets/_Game/Scripts/Manager/BoardManager.cs",
+      "C:/Users/admin/My project/LunaTemp/stage3/processed-scripts/Assets/_Game/Scripts/Bubble/BubbleBase.cs",
+      "C:/Users/admin/My project/LunaTemp/stage3/processed-scripts/Assets/_Game/Scripts/Bubble/BubbleFiveSlot.cs",
+      "C:/Users/admin/My project/LunaTemp/stage3/processed-scripts/Assets/_Game/Scripts/Bubble/BubbleFourSlot.cs",
+      "C:/Users/admin/My project/LunaTemp/stage3/processed-scripts/Assets/_Game/Scripts/Bubble/BubbleOneSlot.cs",
+      "C:/Users/admin/My project/LunaTemp/stage3/processed-scripts/Assets/_Game/Scripts/Bubble/BubbleThreeSlot.cs",
+      "C:/Users/admin/My project/LunaTemp/stage3/processed-scripts/Assets/_Game/Scripts/Bubble/BubbleTwoSlot.cs",
+      "C:/Users/admin/My project/LunaTemp/stage3/processed-scripts/Assets/_Game/Scripts/Manager/EventManager.cs",
+      "C:/Users/admin/My project/LunaTemp/stage3/processed-scripts/Assets/_Game/Scripts/Manager/ComboManager.cs",
+      "C:/Users/admin/My project/LunaTemp/stage3/processed-scripts/Assets/_Game/Scripts/Manager/Singleton.cs",
+      "C:/Users/admin/My project/LunaTemp/stage3/processed-scripts/Assets/_Game/Scripts/Manager/GameData.cs",
+      "C:/Users/admin/My project/LunaTemp/stage3/processed-scripts/Assets/_Game/Scripts/BirdDataSO.cs",
+      "C:/Users/admin/My project/LunaTemp/stage3/processed-scripts/Assets/_Game/Scripts/Obstacle/TargetNestObstacle.cs",
+      "C:/Users/admin/My project/LunaTemp/stage3/processed-scripts/Assets/_Game/Scripts/Obstacle/ObstacleBase.cs",
+      "C:/Users/admin/My project/LunaTemp/stage3/processed-scripts/Assets/_Game/Scripts/Obstacle/BigNestObstacle.cs",
+      "C:/Users/admin/My project/LunaTemp/stage3/processed-scripts/Assets/_Game/Scripts/Bubble/BubblePart.cs",
+      "C:/Users/admin/My project/LunaTemp/stage3/processed-scripts/Assets/_Game/Scripts/Bubble/BubbleParts.cs",
+      "C:/Users/admin/My project/LunaTemp/stage3/processed-scripts/Assets/_Game/Scripts/Obstacle/FrozenNestObstacle.cs",
+      "C:/Users/admin/My project/LunaTemp/stage3/processed-scripts/Assets/_Game/Scripts/Obstacle/ObstacleType.cs",
+      "C:/Users/admin/My project/LunaTemp/stage3/processed-scripts/Assets/_Game/Scripts/Obstacle/BindBirdObstacle.cs",
+      "C:/Users/admin/My project/LunaTemp/stage3/processed-scripts/Assets/_Game/Scripts/Bird/BirdPart.cs",
+      "C:/Users/admin/My project/LunaTemp/stage3/processed-scripts/Assets/_Game/Scripts/Bird/BirdParts.cs",
+      "C:/Users/admin/My project/LunaTemp/stage3/processed-scripts/Assets/_Game/Scripts/Obstacle/HiddenBirdObstacle.cs",
+      "C:/Users/admin/My project/LunaTemp/stage3/processed-scripts/Assets/_Game/Scripts/BubbleConfig.cs",
+      "C:/Users/admin/My project/LunaTemp/stage3/processed-scripts/Assets/_Game/Scripts/LevelConverter.cs",
+      "C:/Users/admin/My project/LunaTemp/stage3/processed-scripts/Assets/_Game/Scripts/SimpleJson.cs",
+      "C:/Users/admin/My project/LunaTemp/stage3/processed-scripts/Assets/_Game/Scripts/LevelConfig.cs",
+      "C:/Users/admin/My project/LunaTemp/stage3/processed-scripts/Assets/_Game/Scripts/LevelData.cs",
+      "C:/Users/admin/My project/LunaTemp/stage3/processed-scripts/Assets/_Game/Scripts/Top/TimeNestController.cs",
+      "C:/Users/admin/My project/LunaTemp/stage3/processed-scripts/Assets/_Game/Scripts/Top/BirdDock.cs",
+      "C:/Users/admin/My project/LunaTemp/stage3/processed-scripts/Assets/_Game/Scripts/Top/DockContainer.cs",
+      "C:/Users/admin/My project/LunaTemp/stage3/processed-scripts/Assets/_Game/Scripts/Interfaces/ISlotable.cs",
+      "C:/Users/admin/My project/LunaTemp/stage3/processed-scripts/Assets/_Game/Scripts/Top/BirdSlot.cs",
+      "C:/Users/admin/My project/LunaTemp/stage3/processed-scripts/Assets/_Game/Scripts/Top/SlotContainer.cs",
+      "C:/Users/admin/My project/LunaTemp/stage3/processed-scripts/Assets/_Game/Scripts/Top/BranchWave.cs",
+      "C:/Users/admin/My project/LunaTemp/stage3/processed-scripts/Assets/CW/LeanPool/Required/Scripts/LeanPool.cs",
+      "C:/Users/admin/My project/LunaTemp/stage3/processed-scripts/Assets/_Game/Scripts/Manager/ParticlesBase.cs",
+      "C:/Users/admin/My project/LunaTemp/stage3/processed-scripts/Assets/_Game/Scripts/Booster/ShuffleFX.cs",
+      "C:/Users/admin/My project/LunaTemp/stage3/processed-scripts/Assets/_Game/Scripts/Manager/ParticlesManager.cs",
+      "C:/Users/admin/My project/LunaTemp/stage3/processed-scripts/Assets/_Game/Scripts/Obstacle/HiddenNestObstacle.cs",
+      "C:/Users/admin/My project/LunaTemp/stage3/processed-scripts/Assets/_Game/Scripts/Ultils.cs",
+      "C:/Users/admin/My project/LunaTemp/stage3/processed-scripts/Assets/_Game/Scripts/Manager/UIManager.cs",
+      "C:/Users/admin/My project/LunaTemp/stage3/processed-scripts/Assets/_Game/Scripts/Manager/UICanvas.cs",
+      "C:/Users/admin/My project/LunaTemp/stage3/processed-scripts/Assets/_Game/Scripts/Manager/SoundManager.cs",
+      "C:/Users/admin/My project/LunaTemp/stage3/processed-scripts/Assets/_Game/Scripts/Obstacle/IceBirdObstacle.cs",
+      "C:/Users/admin/My project/LunaTemp/stage3/processed-scripts/Assets/_Game/Scripts/Obstacle/ObstacleDataHelper.cs",
+      "C:/Users/admin/My project/LunaTemp/stage3/processed-scripts/Assets/_Game/Scripts/Others/Constants.cs",
+      "C:/Users/admin/My project/LunaTemp/stage3/processed-scripts/Assets/_Game/Scripts/Obstacle/LockedNestObstacle.cs",
+      "C:/Users/admin/My project/LunaTemp/stage3/processed-scripts/Assets/_Game/Scripts/Obstacle/KeyNestObstacle.cs",
+      "C:/Users/admin/My project/LunaTemp/stage3/processed-scripts/Assets/_Game/Scripts/IAPConfig.cs",
+      "C:/Users/admin/My project/LunaTemp/stage3/processed-scripts/Assets/_Game/Scripts/IAPTypes.cs",
+      "C:/Users/admin/My project/LunaTemp/stage3/processed-scripts/Assets/Spine/Runtime/spine-unity/Components/SkeletonAnimation.cs",
+      "C:/Users/admin/My project/LunaTemp/stage3/processed-scripts/Assets/Spine/Runtime/spine-unity/Utility/YieldInstructions/WaitForSpineEvent.cs",
+      "C:/Users/admin/My project/LunaTemp/stage3/processed-scripts/Assets/Spine/Runtime/spine-csharp/EventData.cs",
+      "C:/Users/admin/My project/LunaTemp/stage3/processed-scripts/Assets/Spine/Runtime/spine-csharp/Event.cs",
+      "C:/Users/admin/My project/LunaTemp/stage3/processed-scripts/Assets/Spine/Runtime/spine-csharp/Animation.cs",
+      "C:/Users/admin/My project/LunaTemp/stage3/processed-scripts/Assets/Spine/Runtime/spine-csharp/AnimationState.cs",
+      "C:/Users/admin/My project/LunaTemp/stage3/processed-scripts/Assets/Spine/Runtime/spine-csharp/Triangulator.cs",
+      "C:/Users/admin/My project/LunaTemp/stage3/processed-scripts/Assets/Spine/Runtime/spine-csharp/SkeletonClipping.cs",
+      "C:/Users/admin/My project/LunaTemp/stage3/processed-scripts/Assets/Spine/Runtime/spine-csharp/Skeleton.cs",
+      "C:/Users/admin/My project/LunaTemp/stage3/processed-scripts/Assets/Spine/Runtime/spine-csharp/Attachments/VertexAttachment.cs",
+      "C:/Users/admin/My project/LunaTemp/stage3/processed-scripts/Assets/Spine/Runtime/spine-csharp/Attachments/BoundingBoxAttachment.cs",
+      "C:/Users/admin/My project/LunaTemp/stage3/processed-scripts/Assets/Spine/Runtime/spine-csharp/Attachments/AtlasAttachmentLoader.cs",
+      "C:/Users/admin/My project/LunaTemp/stage3/processed-scripts/Assets/Spine/Runtime/spine-csharp/SkeletonLoader.cs",
+      "C:/Users/admin/My project/LunaTemp/stage3/processed-scripts/Assets/Spine/Runtime/spine-csharp/SkeletonBinary.cs",
+      "C:/Users/admin/My project/LunaTemp/stage3/processed-scripts/Assets/Spine/Runtime/spine-unity/Asset Types/SkeletonDataAsset.cs",
+      "C:/Users/admin/My project/LunaTemp/stage3/processed-scripts/Assets/Spine/Runtime/spine-unity/Asset Types/AnimationReferenceAsset.cs",
+      "C:/Users/admin/My project/LunaTemp/stage3/processed-scripts/Assets/Spine/Runtime/spine-unity/ISkeletonAnimation.cs",
+      "C:/Users/admin/My project/LunaTemp/stage3/processed-scripts/Assets/Spine/Runtime/spine-unity/Components/Following/PointFollower.cs",
+      "C:/Users/admin/My project/LunaTemp/stage3/processed-scripts/Assets/Spine/Runtime/spine-unity/Components/SkeletonRenderer.cs",
+      "C:/Users/admin/My project/LunaTemp/stage3/processed-scripts/Assets/Spine/Runtime/spine-unity/Components/Following/BoneFollower.cs",
+      "C:/Users/admin/My project/LunaTemp/stage3/processed-scripts/Assets/Spine/Runtime/spine-unity/Components/Following/BoneFollowerGraphic.cs",
+      "C:/Users/admin/My project/LunaTemp/stage3/processed-scripts/Assets/Spine/Runtime/spine-unity/Components/SkeletonGraphic.cs",
+      "C:/Users/admin/My project/LunaTemp/stage3/processed-scripts/Assets/Spine/Runtime/spine-unity/Components/Following/BoundingBoxFollowerGraphic.cs",
+      "C:/Users/admin/My project/LunaTemp/stage3/processed-scripts/Assets/Spine/Runtime/spine-unity/SpineAttributes.cs",
+      "C:/Users/admin/My project/LunaTemp/stage3/processed-scripts/Assets/Spine/Runtime/spine-unity/Asset Types/EventDataReferenceAsset.cs",
+      "C:/Users/admin/My project/LunaTemp/stage3/processed-scripts/Assets/Spine/Runtime/spine-csharp/SkeletonData.cs",
+      "C:/Users/admin/My project/LunaTemp/stage3/processed-scripts/Assets/Spine/Runtime/spine-csharp/AnimationStateData.cs",
+      "C:/Users/admin/My project/LunaTemp/stage3/processed-scripts/Assets/Spine/Runtime/spine-csharp/PhysicsConstraint.cs",
+      "C:/Users/admin/My project/LunaTemp/stage3/processed-scripts/Assets/Spine/Runtime/spine-csharp/IUpdatable.cs",
+      "C:/Users/admin/My project/LunaTemp/stage3/processed-scripts/Assets/Spine/Runtime/spine-csharp/Bone.cs",
+      "C:/Users/admin/My project/LunaTemp/stage3/processed-scripts/Assets/Spine/Runtime/spine-csharp/Attachments/PointAttachment.cs",
+      "C:/Users/admin/My project/LunaTemp/stage3/processed-scripts/Assets/Spine/Runtime/spine-csharp/Attachments/AttachmentLoader.cs",
+      "C:/Users/admin/My project/LunaTemp/stage3/processed-scripts/Assets/Spine/Runtime/spine-csharp/SkeletonJson.cs",
+      "C:/Users/admin/My project/LunaTemp/stage3/processed-scripts/Assets/Spine/Runtime/spine-csharp/Atlas.cs",
+      "C:/Users/admin/My project/LunaTemp/stage3/processed-scripts/Assets/Spine/Runtime/spine-csharp/Attachments/MeshAttachment.cs",
+      "C:/Users/admin/My project/LunaTemp/stage3/processed-scripts/Assets/Spine/Runtime/spine-csharp/Skin.cs",
+      "C:/Users/admin/My project/LunaTemp/stage3/processed-scripts/Assets/Spine/Runtime/spine-unity/Asset Types/BlendModeMaterials.cs",
+      "C:/Users/admin/My project/LunaTemp/stage3/processed-scripts/Assets/Spine/Runtime/spine-csharp/BlendMode.cs",
+      "C:/Users/admin/My project/LunaTemp/stage3/processed-scripts/Assets/Spine/Runtime/spine-csharp/SlotData.cs",
+      "C:/Users/admin/My project/LunaTemp/stage3/processed-scripts/Assets/Spine/Runtime/spine-csharp/Attachments/ClippingAttachment.cs",
+      "C:/Users/admin/My project/LunaTemp/stage3/processed-scripts/Assets/Spine/Runtime/spine-unity/Asset Types/RegionlessAttachmentLoader.cs",
+      "C:/Users/admin/My project/LunaTemp/stage3/processed-scripts/Assets/Spine/Runtime/spine-csharp/Attachments/RegionAttachment.cs",
+      "C:/Users/admin/My project/LunaTemp/stage3/processed-scripts/Assets/Spine/Runtime/spine-unity/Mesh Generation/MeshGenerator.cs",
+      "C:/Users/admin/My project/LunaTemp/stage3/processed-scripts/Assets/Spine/Runtime/spine-unity/Components/SkeletonRenderSeparator/SkeletonPartsRenderer.cs",
+      "C:/Users/admin/My project/LunaTemp/stage3/processed-scripts/Assets/Spine/Runtime/spine-unity/Components/SkeletonRenderSeparator/SkeletonRenderSeparator.cs",
+      "C:/Users/admin/My project/LunaTemp/stage3/processed-scripts/Assets/Spine/Runtime/spine-unity/Mesh Generation/SkeletonRendererInstruction.cs",
+      "C:/Users/admin/My project/LunaTemp/stage3/processed-scripts/Assets/Spine/Runtime/spine-unity/Mesh Generation/MeshRendererBuffers.cs",
+      "C:/Users/admin/My project/LunaTemp/stage3/processed-scripts/Assets/Spine/Runtime/spine-unity/Mesh Generation/DoubleBuffered.cs",
+      "C:/Users/admin/My project/LunaTemp/stage3/processed-scripts/Assets/Spine/Runtime/spine-csharp/ExposedList.cs",
+      "C:/Users/admin/My project/LunaTemp/stage3/processed-scripts/Assets/Spine/Runtime/spine-csharp/IkConstraint.cs",
+      "C:/Users/admin/My project/LunaTemp/stage3/processed-scripts/Assets/Spine/Runtime/spine-unity/Components/SkeletonUtility/SkeletonUtility.cs",
+      "C:/Users/admin/My project/LunaTemp/stage3/processed-scripts/Assets/Spine/Runtime/spine-unity/Components/Following/BoundingBoxFollower.cs",
+      "C:/Users/admin/My project/LunaTemp/stage3/processed-scripts/Assets/Spine/Runtime/spine-csharp/Slot.cs",
+      "C:/Users/admin/My project/LunaTemp/stage3/processed-scripts/Assets/Spine/Runtime/spine-csharp/Attachments/Sequence.cs",
+      "C:/Users/admin/My project/LunaTemp/stage3/processed-scripts/Assets/Spine/Runtime/spine-csharp/Attachments/IHasTextureRegion.cs",
+      "C:/Users/admin/My project/LunaTemp/stage3/processed-scripts/Assets/Spine/Runtime/spine-unity/SkeletonDataModifierAssets/BlendModeMaterials/BlendModeMaterialsAsset.cs",
+      "C:/Users/admin/My project/LunaTemp/stage3/processed-scripts/Assets/Spine/Runtime/spine-unity/Asset Types/SkeletonDataModifierAsset.cs",
+      "C:/Users/admin/My project/LunaTemp/stage3/processed-scripts/Assets/Spine/Runtime/spine-csharp/Attachments/Attachment.cs",
+      "C:/Users/admin/My project/LunaTemp/stage3/processed-scripts/Assets/Spine/Runtime/spine-csharp/Attachments/PathAttachment.cs",
+      "C:/Users/admin/My project/LunaTemp/stage3/processed-scripts/Assets/Spine/Runtime/spine-csharp/PathConstraint.cs",
+      "C:/Users/admin/My project/LunaTemp/stage3/processed-scripts/Assets/Spine/Runtime/spine-csharp/PathConstraintData.cs",
+      "C:/Users/admin/My project/LunaTemp/stage3/processed-scripts/Assets/Spine/Runtime/spine-csharp/ConstraintData.cs",
+      "C:/Users/admin/My project/LunaTemp/stage3/processed-scripts/Assets/Spine/Runtime/spine-csharp/IkConstraintData.cs",
+      "C:/Users/admin/My project/LunaTemp/stage3/processed-scripts/Assets/Spine/Runtime/spine-csharp/BoneData.cs",
+      "C:/Users/admin/My project/LunaTemp/stage3/processed-scripts/Assets/Spine/Runtime/spine-csharp/PhysicsConstraintData.cs",
+      "C:/Users/admin/My project/LunaTemp/stage3/processed-scripts/Assets/Spine/Runtime/spine-csharp/TransformConstraint.cs",
+      "C:/Users/admin/My project/LunaTemp/stage3/processed-scripts/Assets/Spine/Runtime/spine-unity/Components/RootMotion/SkeletonRootMotionBase.cs",
+      "C:/Users/admin/My project/LunaTemp/stage3/processed-scripts/Assets/Spine/Runtime/spine-unity/Components/RootMotion/SkeletonMecanimRootMotion.cs",
+      "C:/Users/admin/My project/LunaTemp/stage3/processed-scripts/Assets/Spine/Runtime/spine-unity/Components/SkeletonMecanim.cs",
+      "C:/Users/admin/My project/LunaTemp/stage3/processed-scripts/Assets/Spine/Runtime/spine-unity/Components/RootMotion/SkeletonRootMotion.cs",
+      "C:/Users/admin/My project/LunaTemp/stage3/processed-scripts/Assets/Spine/Runtime/spine-unity/Utility/TimelineExtensions.cs",
+      "C:/Users/admin/My project/LunaTemp/stage3/processed-scripts/Assets/Spine/Runtime/spine-csharp/TransformConstraintData.cs",
+      "C:/Users/admin/My project/LunaTemp/stage3/processed-scripts/Assets/Spine/Runtime/spine-csharp/MathUtils.cs",
+      "C:/Users/admin/My project/LunaTemp/stage3/processed-scripts/Assets/Spine/Runtime/spine-unity/Utility/SkeletonExtensions.cs",
+      "C:/Users/admin/My project/LunaTemp/stage3/processed-scripts/Assets/Spine/Runtime/spine-csharp/TextureRegion.cs",
+      "C:/Users/admin/My project/LunaTemp/stage3/processed-scripts/Assets/Spine/Runtime/spine-unity/Utility/AtlasUtilities.cs",
+      "C:/Users/admin/My project/LunaTemp/stage3/processed-scripts/Assets/Spine/Runtime/spine-unity/Utility/AttachmentCloneExtensions.cs",
+      "C:/Users/admin/My project/LunaTemp/stage3/processed-scripts/Assets/Spine/Runtime/spine-unity/Utility/AttachmentRegionExtensions.cs",
+      "C:/Users/admin/My project/LunaTemp/stage3/processed-scripts/Assets/Spine/Runtime/spine-unity/Components/SkeletonUtility/SkeletonUtilityBone.cs",
+      "C:/Users/admin/My project/LunaTemp/stage3/processed-scripts/Assets/Spine/Runtime/spine-unity/Components/SkeletonUtility/SkeletonUtilityConstraint.cs",
+      "C:/Users/admin/My project/LunaTemp/stage3/processed-scripts/Assets/Spine/Runtime/spine-csharp/SkeletonBounds.cs",
+      "C:/Users/admin/My project/LunaTemp/stage3/processed-scripts/Assets/Spine/Runtime/spine-unity/Components/SkeletonRendererCustomMaterials/SkeletonRendererCustomMaterials.cs",
+      "C:/Users/admin/My project/LunaTemp/stage3/processed-scripts/Assets/Spine/Runtime/spine-unity/Mesh Generation/SpineMesh.cs",
+      "C:/Users/admin/My project/LunaTemp/stage3/processed-scripts/Assets/Spine/Runtime/spine-unity/Asset Types/AtlasAssetBase.cs",
+      "C:/Users/admin/My project/LunaTemp/stage3/processed-scripts/Assets/Spine/Runtime/spine-unity/Asset Types/OnDemandTextureLoader.cs",
+      "C:/Users/admin/My project/LunaTemp/stage3/processed-scripts/Assets/Spine/Runtime/spine-unity/Asset Types/SpineAtlasAsset.cs",
+      "C:/Users/admin/My project/LunaTemp/stage3/processed-scripts/Assets/Spine/Runtime/spine-unity/Asset Types/SpineSpriteAtlasAsset.cs",
+      "C:/Users/admin/My project/LunaTemp/stage3/processed-scripts/Assets/Spine/Runtime/spine-csharp/Json.cs",
+      "C:/Users/admin/My project/LunaTemp/stage3/processed-scripts/Assets/Spine/Runtime/spine-csharp/Attachments/AttachmentType.cs",
+      "C:/Users/admin/My project/LunaTemp/stage3/processed-scripts/Assets/Spine/Runtime/spine-unity/Components/SkeletonRendererCustomMaterials/SkeletonGraphicCustomMaterials.cs",
+      "C:/Users/admin/My project/LunaTemp/stage3/processed-scripts/Assets/Spine/Runtime/spine-unity/Components/SkeletonUtility/ActivateBasedOnFlipDirection.cs",
+      "C:/Users/admin/My project/LunaTemp/stage3/processed-scripts/Assets/Spine/Runtime/spine-unity/Components/Internal/SkeletonSubmeshGraphic.cs",
+      "C:/Users/admin/My project/LunaTemp/stage3/processed-scripts/Assets/Spine/Runtime/spine-unity/Asset Types/SkeletonDataCompatibility.cs",
+      "C:/Users/admin/My project/LunaTemp/stage3/processed-scripts/Assets/Spine/Runtime/spine-unity/Utility/YieldInstructions/WaitForSpineAnimation.cs",
+      "C:/Users/admin/My project/LunaTemp/stage3/processed-scripts/Assets/Spine/Runtime/spine-unity/Utility/YieldInstructions/WaitForSpineAnimationComplete.cs",
+      "C:/Users/admin/My project/LunaTemp/stage3/processed-scripts/Assets/Spine/Runtime/spine-unity/Utility/YieldInstructions/WaitForSpineAnimationEnd.cs",
+      "C:/Users/admin/My project/LunaTemp/stage3/processed-scripts/Assets/Spine/Runtime/spine-unity/Utility/YieldInstructions/WaitForSpineTrackEntryEnd.cs",
+      "C:/Users/admin/My project/LunaTemp/stage3/processed-scripts/Assets/_Game/Scripts/OutsideBirdHolder.cs",
+      "C:/Users/admin/My project/LunaTemp/stage3/processed-scripts/Assets/_Game/Scripts/Interfaces/IClickable.cs",
+      "C:/Users/admin/My project/LunaTemp/stage3/processed-scripts/Assets/_Game/Scripts/Manager/ControllerManager.cs",
+      "C:/Users/admin/My project/LunaTemp/stage3/processed-scripts/Assets/_Game/Scripts/OutsideBird.cs",
+      "C:/Users/admin/My project/LunaTemp/stage3/processed-scripts/Assets/CW/LeanPool/Examples/Scripts/LeanPoolDebugger.cs",
+      "C:/Users/admin/My project/LunaTemp/stage3/processed-scripts/Assets/CW/LeanPool/Required/Scripts/LeanGameObjectPool.cs",
+      "C:/Users/admin/My project/LunaTemp/stage3/processed-scripts/Assets/CW/LeanPool/Required/Scripts/IPoolable.cs",
+      "C:/Users/admin/My project/LunaTemp/stage3/processed-scripts/Assets/CW/LeanPool/Extras/Scripts/LeanPooledRigidbody.cs",
+      "C:/Users/admin/My project/LunaTemp/stage3/processed-scripts/Assets/CW/LeanPool/Extras/Scripts/LeanPooledRigidbody2D.cs",
+      "C:/Users/admin/My project/LunaTemp/stage3/processed-scripts/Assets/CW/LeanPool/Required/Scripts/LeanClassPool.cs",
+      "C:/Users/admin/My project/LunaTemp/stage3/processed-scripts/Assets/CW/LeanCommon/Required/Scripts/LeanCommon.cs",
+      "C:/Users/admin/My project/LunaTemp/stage3/processed-scripts/Assets/CW/LeanCommon/Extras/Scripts/LeanDestroy.cs",
+      "C:/Users/admin/My project/LunaTemp/stage3/processed-scripts/Assets/CW/LeanCommon/Extras/Scripts/LeanFormatString.cs",
+      "C:/Users/admin/My project/LunaTemp/stage3/processed-scripts/Assets/CW/LeanCommon/Extras/Scripts/LeanPath.cs",
+      "C:/Users/admin/My project/LunaTemp/stage3/processed-scripts/Assets/CW/LeanCommon/Extras/Scripts/LeanPlane.cs",
+      "C:/Users/admin/My project/LunaTemp/stage3/processed-scripts/Assets/CW/LeanCommon/Extras/Scripts/LeanRoll.cs",
+      "C:/Users/admin/My project/LunaTemp/stage3/processed-scripts/Assets/CW/Shared/Common/Required/Scripts/CwHelper.cs",
+      "C:/Users/admin/My project/LunaTemp/stage3/processed-scripts/Assets/CW/LeanCommon/Extras/Scripts/LeanSelect.cs",
+      "C:/Users/admin/My project/LunaTemp/stage3/processed-scripts/Assets/CW/LeanCommon/Extras/Scripts/LeanSelectable.cs",
+      "C:/Users/admin/My project/LunaTemp/stage3/processed-scripts/Assets/CW/LeanCommon/Extras/Scripts/LeanSelectableBehaviour.cs",
+      "C:/Users/admin/My project/LunaTemp/stage3/processed-scripts/Assets/CW/LeanCommon/Extras/Scripts/LeanSelectableGraphicColor.cs",
+      "C:/Users/admin/My project/LunaTemp/stage3/processed-scripts/Assets/CW/LeanCommon/Extras/Scripts/LeanSelectableRendererColor.cs",
+      "C:/Users/admin/My project/LunaTemp/stage3/processed-scripts/Assets/CW/LeanCommon/Extras/Scripts/LeanSelectableSpriteRendererColor.cs",
+      "C:/Users/admin/My project/LunaTemp/stage3/processed-scripts/Assets/CW/Shared/Common/Examples/Scripts/CwCameraLook.cs",
+      "C:/Users/admin/My project/LunaTemp/stage3/processed-scripts/Assets/CW/Shared/Common/Required/Scripts/CwCommon.cs",
+      "C:/Users/admin/My project/LunaTemp/stage3/processed-scripts/Assets/CW/Shared/Common/Examples/Scripts/CwCameraMove.cs",
+      "C:/Users/admin/My project/LunaTemp/stage3/processed-scripts/Assets/CW/Shared/Common/Extras/Scripts/CwInputManager.cs",
+      "C:/Users/admin/My project/LunaTemp/stage3/processed-scripts/Assets/CW/Shared/Common/Examples/Scripts/CwCameraPivot.cs",
+      "C:/Users/admin/My project/LunaTemp/stage3/processed-scripts/Assets/CW/Shared/Common/Required/Scripts/CwInput.cs",
+      "C:/Users/admin/My project/LunaTemp/stage3/processed-scripts/Assets/CW/Shared/Common/Examples/Scripts/CwDemoButton.cs",
+      "C:/Users/admin/My project/LunaTemp/stage3/processed-scripts/Assets/CW/Shared/Common/Examples/Scripts/CwDemoButtonBuilder.cs",
+      "C:/Users/admin/My project/LunaTemp/stage3/processed-scripts/Assets/CW/Shared/Common/Examples/Scripts/CwRotate.cs",
+      "C:/Users/admin/My project/LunaTemp/stage3/processed-scripts/Assets/CW/Shared/Common/Extras/Scripts/CwFollow.cs",
+      "C:/Users/admin/My project/LunaTemp/stage3/processed-scripts/Assets/CW/Shared/Common/Extras/Scripts/CwRenderTextureManager.cs",
+      "C:/Users/admin/My project/LunaTemp/stage3/processed-scripts/Assets/CW/Shared/Common/Examples/Scripts/CwDemo.cs",
+      "C:/Users/admin/My project/LunaTemp/stage3/processed-scripts/Assets/CW/Shared/Common/Examples/Scripts/CwLightIntensity.cs",
+      "C:/Users/admin/My project/LunaTemp/stage3/processed-scripts/Assets/CW/LeanCommon/Extras/Scripts/LeanSpawn.cs",
+      "C:/Users/admin/My project/LunaTemp/stage3/processed-scripts/Assets/_Game/Scripts/Top/DockCountdown.cs",
+      "C:/Users/admin/My project/LunaTemp/stage3/processed-scripts/Assets/_Game/Scripts/Manager/GameManager.cs",
+      "C:/Users/admin/My project/LunaTemp/stage3/processed-scripts/Assets/_Game/Scripts/Obstacle/StoneNestObstacle.cs",
+      "C:/Users/admin/My project/LunaTemp/stage3/processed-scripts/Assets/_Game/Scripts/Obstacle/ObstacleConfigSO.cs",
+      "C:/Users/admin/My project/LunaTemp/stage3/processed-scripts/Assets/_Game/Scripts/Tutorial/WaitForGameEvent.cs",
+      "C:/Users/admin/My project/LunaTemp/stage3/processed-scripts/Assets/_Game/Scripts/Booster/MagnetNestFx.cs"
+    ],
+    [
+      "C:/Users/admin/My project/LunaTemp/stage3/processed-scripts/Assets/_Game/Scripts/BottomWave.cs"
+    ],
+    [
+      "C:/Users/admin/My project/LunaTemp/stage3/processed-scripts/Assets/_Game/Scripts/Others/FindMissingScriptsRecursively.cs"
+    ],
+    [
+      "C:/Users/admin/My project/LunaTemp/stage3/processed-scripts/Assets/_Game/Scripts/Others/RewardItemAnim.cs"
+    ],
+    [
+      "C:/Users/admin/My project/LunaTemp/stage3/processed-scripts/Assets/_Game/Scripts/Others/SceneSwitcher.cs"
+    ],
+    [
+      "C:/Users/admin/My project/LunaTemp/stage3/processed-scripts/Assets/_Game/Scripts/SpriteFitScreenHeight.cs"
+    ],
+    [
+      "C:/Users/admin/My project/LunaTemp/stage3/processed-scripts/Assets/_Game/Scripts/Tutorial/TutorialManager.cs"
+    ],
+    [
+      "C:/Users/admin/My project/LunaTemp/stage3/processed-scripts/Assets/_Game/Scripts/UIImageFitScreenHeight.cs"
+    ],
+    [
+      "C:/Users/admin/My project/LunaTemp/stage3/processed-scripts/Assets/CW/Shared/Common/Examples/Scripts/CwDepthTextureMode.cs"
+    ],
+    [
+      "C:/Users/admin/My project/LunaTemp/stage3/processed-scripts/Assets/CW/Shared/Common/Extras/Scripts/CwChild.cs"
+    ],
+    [
+      "C:/Users/admin/My project/LunaTemp/stage3/processed-scripts/Assets/CW/Shared/Common/Extras/Scripts/CwSeedAttribute.cs"
+    ],
+    [
+      "C:/Users/admin/My project/LunaTemp/stage3/processed-scripts/Assets/CW/Shared/Common/Required/Scripts/CwEditor.cs"
+    ],
+    [
+      "C:/Users/admin/My project/LunaTemp/stage3/processed-scripts/Assets/CW/Shared/Common/Required/Scripts/CwGuide.cs"
+    ],
+    [
+      "C:/Users/admin/My project/LunaTemp/stage3/processed-scripts/Assets/DOTween/Modules/DOTweenModuleAudio.cs"
+    ],
+    [
+      "C:/Users/admin/My project/LunaTemp/stage3/processed-scripts/Assets/DOTween/Modules/DOTweenModuleEPOOutline.cs"
+    ],
+    [
+      "C:/Users/admin/My project/LunaTemp/stage3/processed-scripts/Assets/DOTween/Modules/DOTweenModulePhysics.cs"
+    ],
+    [
+      "C:/Users/admin/My project/LunaTemp/stage3/processed-scripts/Assets/DOTween/Modules/DOTweenModulePhysics2D.cs"
+    ],
+    [
+      "C:/Users/admin/My project/LunaTemp/stage3/processed-scripts/Assets/DOTween/Modules/DOTweenModuleSprite.cs"
+    ],
+    [
+      "C:/Users/admin/My project/LunaTemp/stage3/processed-scripts/Assets/DOTween/Modules/DOTweenModuleUI.cs"
+    ],
+    [
+      "C:/Users/admin/My project/LunaTemp/stage3/processed-scripts/Assets/DOTween/Modules/DOTweenModuleUIToolkit.cs"
+    ],
+    [
+      "C:/Users/admin/My project/LunaTemp/stage3/processed-scripts/Assets/DOTween/Modules/DOTweenModuleUnityVersion.cs"
+    ],
+    [
+      "C:/Users/admin/My project/LunaTemp/stage3/processed-scripts/Assets/DOTween/Modules/DOTweenModuleUtils.cs"
+    ],
+    [
+      "C:/Users/admin/My project/LunaTemp/stage3/processed-scripts/Assets/Spine/Runtime/spine-unity/Components/EditorSkeletonPlayer.cs"
+    ],
+    [
+      "C:/Users/admin/My project/LunaTemp/stage3/processed-scripts/Assets/Spine/Runtime/spine-unity/Components/SkeletonUtility/FollowLocationRigidbody.cs"
+    ],
+    [
+      "C:/Users/admin/My project/LunaTemp/stage3/processed-scripts/Assets/Spine/Runtime/spine-unity/Components/SkeletonUtility/FollowLocationRigidbody2D.cs"
+    ],
+    [
+      "C:/Users/admin/My project/LunaTemp/stage3/processed-scripts/Assets/Spine/Runtime/spine-unity/Components/SkeletonUtility/FollowSkeletonUtilityRootRotation.cs"
+    ],
+    [
+      "C:/Users/admin/My project/LunaTemp/stage3/processed-scripts/Assets/Spine/Runtime/spine-unity/Modules/TK2D/SpriteCollectionAttachmentLoader.cs"
+    ],
+    [
+      "C:/Users/admin/My project/LunaTemp/stage3/processed-scripts/Assets/Spine/Runtime/spine-unity/Utility/BuildUtilities.cs"
+    ],
+    [
+      "C:/Users/admin/My project/LunaTemp/stage3/processed-scripts/Assets/Spine/Runtime/spine-unity/Utility/MaterialChecks.cs"
+    ],
+    [
+      "C:/Users/admin/My project/LunaTemp/stage3/processed-scripts/Assets/Spine/Runtime/spine-unity/Utility/MathUtilities.cs"
+    ],
+    [
+      "C:/Users/admin/My project/LunaTemp/stage3/processed-scripts/Assets/Spine/Runtime/spine-unity/Utility/SettingsTriState.cs"
+    ],
+    [
+      "C:/Users/admin/Downloads/7.2.0 (1)/pipeline/templates/LunaCompiler/Scripts/Properties/AssemblyInfo.cs"
+    ],
+    [
+      "C:/Users/admin/Downloads/7.2.0 (1)/pipeline/templates/LunaCompiler/Scripts/Sources/OtherDummyScript.cs"
+    ],
+    [
+      "C:/Users/admin/Downloads/7.2.0 (1)/pipeline/templates/LunaCompiler/Scripts/obj/Debug/.NETFramework,Version=v4.7.AssemblyAttributes.cs"
+    ]
+  ]
+}
