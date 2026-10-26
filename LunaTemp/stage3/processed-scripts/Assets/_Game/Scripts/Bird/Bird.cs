@@ -35,6 +35,9 @@ public class Bird : MonoBehaviour, IClickable, ISlotable, IPoolable
     [SerializeField, Range(10f, 120f)] private float _idleUpdateFps = 40f;
     [Tooltip("Chim còn nằm trong bubble chỉ dựng Spine ở các frame đầu rồi đứng yên tư thế đó; rời bubble mới chạy animation lại. Giảm mạnh chi phí Spine (nhất là trên Playworks).")]
     [SerializeField] private bool _freezeSpineInBubble = true;
+    [Tooltip("Chim đã lên dock và chuyển sang anim Sleep thì dựng 1 frame rồi đứng yên, không cập nhật Spine nữa.")]
+    [SerializeField] private bool _freezeSpineWhenSleeping = true;
+    private bool _sleepFrozen;
     private const int FullRateWarmupFrames = 2;
     private float _tickTimer;
     private int _fullRateFramesLeft;
@@ -174,7 +177,10 @@ public class Bird : MonoBehaviour, IClickable, ISlotable, IPoolable
             }
         }
 
-        PlayRandomIdleAnimation();
+        if (_freezeSpineInBubble && ownerBubble != null)
+            PlayAnimation(IdleAnimations[0], false);
+        else
+            PlayRandomIdleAnimation();
 
         SetInteraction(true);
         Content.localScale = Vector3.one * Random.Range(0.95f, 1.05f);
@@ -202,11 +208,17 @@ public class Bird : MonoBehaviour, IClickable, ISlotable, IPoolable
             _fullRateFramesLeft--;
         }
 
-        // Chim trong bubble: mesh đã được dựng ở các frame warmup ngay sau Init, giữ nguyên tư thế đó.
-        // Bỏ luôn thời gian dồn lại để khi rời bubble animation không bị nhảy cóc.
-        if (!fullRate && _freezeSpineInBubble && _ownerBubble != null)
+        bool frozenInBubble = _freezeSpineInBubble && _ownerBubble != null && !NeedsFullRateAnimation;
+        // Chim ngủ trên dock: cũng chỉ dựng frame đầu của Sleep rồi đứng yên.
+        bool frozenSleeping = _sleepFrozen && !NeedsFullRateAnimation;
+        if (frozenInBubble || frozenSleeping)
         {
             _pendingDelta = 0f;
+            if (_fullRateFramesLeft > 0)
+            {
+                _skeletalAnimation.Update(0f);    // giữ đúng frame 0 của animation, không cộng deltaTime
+                _skeletalAnimation.LateUpdate();  // dựng mesh
+            }
             return;
         }
 
@@ -575,7 +587,11 @@ public class Bird : MonoBehaviour, IClickable, ISlotable, IPoolable
         if (!PlayAnimation(SleepAnimation, true, resetPose: !keepPose))
         {
             PlayRandomIdleAnimation(true);
+            return;
         }
+
+        // PlayAnimation vừa đặt lại 2 frame warmup để dựng pose Sleep; sau đó LateUpdate sẽ đứng yên.
+        _sleepFrozen = _freezeSpineWhenSleeping;
     }
 
     private void OnAnimationComplete(Spine.TrackEntry trackEntry)
@@ -628,6 +644,9 @@ public class Bird : MonoBehaviour, IClickable, ISlotable, IPoolable
         {
             return false;
         }
+
+        // Anim mới (bay, idle khi Init lại từ pool...) thì bỏ trạng thái đóng băng Sleep.
+        _sleepFrozen = false;
 
         // Anim mới phải hiện ngay, không chờ tới frame được phép update.
         _fullRateFramesLeft = FullRateWarmupFrames;

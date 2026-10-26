@@ -1,1 +1,0 @@
-{"id":25464,"path":"Assets/_Game/Shaders/Custom_SpriteBranchWave.mat","assetBundleId":-1,"data":["Custom_SpriteBranchWave",0,436,3000,0,[["_HitU",0.5],["_WaveAge",-1],["_Amp",0.0700000002980232],["_Speed",3],["_Freq",27],["_Damp",8],["_Falloff",1]],[["_Color",1,1,1,1]],[["_MainTex_ST",1,1,0,0]],[["_MainTex",null,null]],[]]}

@@ -23,13 +23,14 @@ public class BoosterClear : BoosterBase
 
         IsBusy = true;
 
-        // GameplayUI gameplayUI = UIManager.Ins.IsOpened<GameplayUI>() ? UIManager.Ins.GetUI<GameplayUI>() : null;
+        // GameplayUI đặt sẵn trong scene (không mở qua OpenUI) nên lấy bằng GetUI thay vì IsOpened.
+        GameplayUI gameplayUI = UIManager.Ins.GetUI<GameplayUI>();
         Vector3 target = topContainer.SlotContainer.transform.position;
         topContainer.SetClearCharging(true);
-        // if (gameplayUI != null && gameplayUI.PlayClearSlingshot(target, OnStoneHit))
-        // {
-        //     return true;
-        // }
+        if (gameplayUI != null && gameplayUI.isActiveAndEnabled && gameplayUI.PlayClearSlingshot(target, OnStoneHit))
+        {
+            return true;
+        }
 
         // Khong co na (chua gan / UI chua mo) thi clear ngay nhu cu.
         topContainer.SetClearCharging(false);

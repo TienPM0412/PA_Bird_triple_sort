@@ -74,6 +74,45 @@ public static class SimpleJson
         return fallback;
     }
 
+    public static Dictionary<string, object> GetObject(Dictionary<string, object> obj, string key)
+    {
+        object value;
+        return obj.TryGetValue(key, out value) ? value as Dictionary<string, object> : null;
+    }
+
+    /// Mảng các object, vd "layers": [ {...}, {...} ]. Không có thì trả về list rỗng.
+    public static List<Dictionary<string, object>> GetObjectArray(Dictionary<string, object> obj, string key)
+    {
+        List<Dictionary<string, object>> result = new List<Dictionary<string, object>>();
+        object value;
+        List<object> array = obj.TryGetValue(key, out value) ? value as List<object> : null;
+        if (array == null) return result;
+
+        for (int i = 0; i < array.Count; i++)
+        {
+            Dictionary<string, object> item = array[i] as Dictionary<string, object>;
+            if (item != null) result.Add(item);
+        }
+
+        return result;
+    }
+
+    /// Mảng số, vd "d": [0.1, 2, 3]. Không có thì trả về mảng rỗng.
+    public static float[] GetFloatArray(Dictionary<string, object> obj, string key)
+    {
+        object value;
+        List<object> array = obj.TryGetValue(key, out value) ? value as List<object> : null;
+        if (array == null) return new float[0];
+
+        float[] result = new float[array.Count];
+        for (int i = 0; i < array.Count; i++)
+        {
+            if (array[i] is double) result[i] = (float)(double)array[i];
+        }
+
+        return result;
+    }
+
     public static string GetString(Dictionary<string, object> obj, string key, string fallback = "")
     {
         object value;

@@ -108,35 +108,6 @@ public class TopContainer : Singleton<TopContainer>
         // EventManager.RemoveListener<ExtraTileEvent>(OnExtraTileEventCallBack);
     }
 
-    private void LateUpdate()
-    {
-        Camera camera = ResolveFitCamera();
-        if (camera == null)
-        {
-            return;
-        }
-
-        int pixelWidth = camera.pixelWidth > 0 ? (int)camera.pixelWidth : Screen.width;
-        int pixelHeight = camera.pixelHeight > 0 ? (int)camera.pixelHeight : Screen.height;
-        float projection = camera.orthographic
-            ? camera.orthographicSize
-            : GetPerspectiveViewHeight(camera);
-
-        if (camera != lastFitCamera ||
-            pixelWidth != lastFitPixelWidth ||
-            pixelHeight != lastFitPixelHeight ||
-            !Mathf.Approximately(projection, lastFitProjection) ||
-            referenceResolution != lastFitReferenceResolution ||
-            !Mathf.Approximately(
-                referenceOrthographicSize,
-                lastFitReferenceOrthographicSize) ||
-            !Mathf.Approximately(cameraFitPadding, lastCameraFitPadding) ||
-            allowCameraFitUpscale != lastAllowCameraFitUpscale)
-        {
-            FitCamera(camera);
-        }
-    }
-
     private void OnUndoTileEventCallback(/*UndoTileEvent obj*/)
     {
         // slotContainer.RemoveTile(obj.tile);

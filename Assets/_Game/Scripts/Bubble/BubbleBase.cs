@@ -395,19 +395,19 @@ public class BubbleBase : MonoBehaviour
     {
     }
 
-    // private void LateUpdate()
-    // {
-    //     for (int i = 0; i < birds.Count; i++)
-    //     {
-    //         birds[i].VisualsTransform.rotation = Quaternion.Euler(
-    //         0f,
-    //         0f,
-    //         0f
-    //     );
-    //     }
+    private void LateUpdate()
+    {
+        for (int i = 0; i < birds.Count; i++)
+        {
+            birds[i].VisualsTransform.rotation = Quaternion.Euler(
+            0f,
+            0f,
+            0f
+        );
+        }
 
-    //     ApplyCircleMask();
-    // }
+        ApplyCircleMask();
+    }
 
     /// Cắt phần chim thò ra ngoài hình tròn của bubble bằng shader (tâm/bán kính world theo CircleCollider2D).
     /// Làm mỗi frame vì bubble có thể di chuyển/scale; mỗi bubble tự gửi vòng tròn của mình nên không lẫn nhau.

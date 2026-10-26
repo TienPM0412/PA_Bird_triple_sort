@@ -49,6 +49,8 @@ public class LevelManager : Singleton<LevelManager>
     [SerializeField] private BoardManager boardManager;
     [SerializeField] private TextAsset levelDifficultyFile;
     [SerializeField] private int totalLevelCount = 400;
+    [Tooltip("Playable Ads: level sẽ chạy khi vào scene. Đặt 0 để dùng tiến trình đã lưu (IndexLevel + 1).")]
+    [SerializeField, Min(0)] private int playableLevel = 1;
     public Bird birdPrefab;
     [ShowInInspector] public LevelData CurrentLevelData { get; private set; }
 
@@ -79,7 +81,7 @@ public class LevelManager : Singleton<LevelManager>
 
     public void LoadLevel()
     {
-        LoadLevel(VariableSystem.IndexLevel + 1);
+        LoadLevel(playableLevel > 0 ? playableLevel : VariableSystem.IndexLevel + 1);
     }
 
     [Button]

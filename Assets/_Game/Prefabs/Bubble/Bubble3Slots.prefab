@@ -76,7 +76,8 @@ PrefabInstance:
       propertyPath: birdParent
       value: 
       objectReference: {fileID: 4578931258571157091}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 8091939757260729042, guid: ca3ff8625bbd42a47a94d409723a6819, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents:

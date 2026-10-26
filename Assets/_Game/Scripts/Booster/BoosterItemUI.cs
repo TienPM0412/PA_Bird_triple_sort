@@ -18,7 +18,7 @@ public class BoosterItemUI : MonoBehaviour
 
     [Header("UI")]
     [SerializeField] private Image icon;
-    // [SerializeField] private ButtonScaleUI button;
+    [SerializeField] private ButtonScaleUI button;
     [SerializeField] private GameObject amountObject;
     [SerializeField] private GameObject addObject;
     [SerializeField] private GameObject freeObject;
@@ -45,9 +45,9 @@ public class BoosterItemUI : MonoBehaviour
             return;
         }
 
-        //isFirstUse = VariableSystem.IndexLevel + 1 == info.levelUnlock;
-        isFirstUse = PlayerPrefs.GetInt($"Booster_{type}_FirstUse", 1) == 1;
-        currentAmount = PlayerPrefs.GetInt($"Booster_{type}", info.amountFirst);
+        // Playable Ads: không lưu PlayerPrefs, mỗi lần chạy đều bắt đầu với 1 lượt free và 0 lượt thường.
+        isFirstUse = true;
+        currentAmount = 0;
 
         priceText.text = $"{info.price}";
 
@@ -59,58 +59,42 @@ public class BoosterItemUI : MonoBehaviour
 
         booster.OnStateChanged += RefreshUI;
         BoosterManager.Ins.OnGlobalStateChanged += RefreshUI;
-        // button.action.RemoveAllListeners();
-        // button.action.AddListener(() =>
-        // {
-        //     //SoundManager.Ins.PlaySFX(SFX.SFX_BUTTON_CLICK);
-        //     bool isBuying = false;
-        //     if (currentState == BoosterState.Lock)
-        //     {
-        //         //GameEventBus.FireShowMessage($"Locked at level {info.levelUnlock}");
-        //         return;
-        //     }
-        //     else if (currentState == BoosterState.NotReady)
-        //     {
-        //         UIManager.Ins.OpenUI<BuyBoosterUI>().Init(info);
-        //         return;
-        //     }
+        button.action.RemoveAllListeners();
+        button.action.AddListener(() =>
+        {
+            if (currentState == BoosterState.Lock)
+            {
+                return;
+            }
 
-        //     bool success = BoosterManager.Ins.ActiveBooster(type);
+            // Hết lượt (đang hiện addObject): mở trang tải game (CTA) rồi tặng thêm 1 lượt.
+            if (currentState == BoosterState.NotReady)
+            {
+                PlayableAdHelper.InstallFullGame();
+                currentAmount++;
+                SoundManager.Ins.PlaySFX(SoundFX.Booster_Collect);
+                RefreshUI();
+                return;
+            }
 
-        //     if (success)
-        //     {
-        //         // if (TutotialManager.Ins.IsTutorial)
-        //         // {
-        //         //     TutotialManager.Ins.HideHandTutorial();
-        //         //     //GameManager.Ins.BlockFull(false);
-        //         // }
+            bool success = BoosterManager.Ins.ActiveBooster(type);
 
-        //         if (isBuying)
-        //         {
-        //             //DataManager.Ins.SpendCoin(info.price);
-        //             PlayerPrefs.SetInt($"Booster_{type}", currentAmount + info.amountBuy - 1);
-        //             SoundManager.Ins.PlaySFX(SoundFX.Booster_Collect);
-        //         }
-        //         else if (VariableSystem.IndexLevel + 1 >= info.levelUnlock && isFirstUse)
-        //         {
-        //             //TutotialManager.Ins.HideHandTutorial();
-        //             //GameManager.Ins.BlockInput(false);
-        //             isFirstUse = false;
-        //             PlayerPrefs.SetInt($"Booster_{type}_FirstUse", 0);
-        //         }
-        //         else
-        //         {
-        //             if (currentAmount > 0)
-        //             {
-        //                 currentAmount--;
-        //                 PlayerPrefs.SetInt($"Booster_{type}", currentAmount);
-        //                 DataBucketEvent.Ins.SpendResource("booster", type.ToString(), "1", "use");
-        //             }
-        //         }
-        //         //GameEventBus.FireExitIdle();
-        //         RefreshUI();
-        //     }
-        // });
+            if (success)
+            {
+                if (isFirstUse)
+                {
+                    isFirstUse = false;
+                }
+                else
+                {
+                    if (currentAmount > 0)
+                    {
+                        currentAmount--;
+                    }
+                }
+                RefreshUI();
+            }
+        });
 
         RefreshUI();
 
@@ -124,9 +108,8 @@ public class BoosterItemUI : MonoBehaviour
     public void RefreshUI()
     {
         if (booster == null) return;
-        currentAmount = PlayerPrefs.GetInt($"Booster_{type}", info.amountFirst);
 
-        bool isLocked = VariableSystem.IndexLevel + 1 < info.levelUnlock;
+        bool isLocked = false;
 
         if (isLocked)
         {
