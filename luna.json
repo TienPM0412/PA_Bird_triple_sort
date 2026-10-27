@@ -1,8 +1,8 @@
 {
     "version": "7.2.0",
     "projectId": "3d987a175be354642872f51e7e01f1fb",
-    "applicationID": 40462,
-    "creativeName": "",
+    "applicationID": 43850,
+    "creativeName": "PA_Lv1",
     "pgServer": "EU",
     "window": {
         "‐⁘": true
@@ -42730,11 +42730,11 @@
                     },
                     {
                         "name": "PlayWinPulse",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "IE_PreWinTapDelay",
-                        "excluded": true
+                        "excluded": false
                     }
                 ]
             },
@@ -42944,6 +42944,18 @@
                     },
                     {
                         "name": "OnFullScreenButtonClicked",
+                        "excluded": true
+                    },
+                    {
+                        "name": "PlayLosePulse",
+                        "excluded": true
+                    },
+                    {
+                        "name": "KillLosePulse",
+                        "excluded": true
+                    },
+                    {
+                        "name": "OnDisable",
                         "excluded": true
                     }
                 ]

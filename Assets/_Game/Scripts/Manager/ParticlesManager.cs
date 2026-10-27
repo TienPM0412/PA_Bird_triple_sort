@@ -25,6 +25,7 @@ public enum ParticleEffectType
     LongChim_006 = 14,
     LongChim_007 = 15,
     LongChim_008 = 16,
+    LongChimTrang = 17,
 
     FX_Amazing = 100,
     FX_Awesome = 101,

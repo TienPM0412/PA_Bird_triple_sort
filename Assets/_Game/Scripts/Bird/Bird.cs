@@ -8,7 +8,7 @@ using Random = UnityEngine.Random;
 
 public class Bird : MonoBehaviour, IClickable, ISlotable, IPoolable
 {
-    private static readonly string[] IdleAnimations = { "Idle", "Idle2", "Idle3" };
+    private static readonly string[] IdleAnimations = { "Idle" };
     private const string FlyAnimation = "Fly";
     private const string LandAnimation = "Landing";
     private const string IdleToSleepAnimation = "Idle_to_sleep";
@@ -866,65 +866,65 @@ public class Bird : MonoBehaviour, IClickable, ISlotable, IPoolable
 
     private void SpawnVFX(BirdType birdType)
     {
-        ParticleEffectType effectType = ParticleEffectType.LongChim_Blue;
-        switch (birdType)
-        {
-            case BirdType.Bird_001:
-                effectType = ParticleEffectType.LongChim_001;
-                break;
-            case BirdType.Bird_002:
-                effectType = ParticleEffectType.LongChim_Orange;
-                break;
-            case BirdType.Bird_003:
-                effectType = ParticleEffectType.LongChim_002;
-                break;
-            case BirdType.Bird_004:
-                effectType = ParticleEffectType.LongChim_003;
-                break;
-            case BirdType.Bird_005:
-                effectType = ParticleEffectType.LongChim_004;
-                break;
-            case BirdType.Bird_006:
-                effectType = ParticleEffectType.LongChim_005;
-                break;
-            case BirdType.Bird_007:
-                effectType = ParticleEffectType.LongChim_006;
-                break;
-            case BirdType.Bird_008:
-                effectType = ParticleEffectType.LongChim_007;
-                break;
-            case BirdType.Bird_009:
-                effectType = ParticleEffectType.LongChim_Orange;
-                break;
-            case BirdType.Bird_010:
-                effectType = ParticleEffectType.LongChim_008;
-                break;
-            case BirdType.Bird_011:
-                effectType = ParticleEffectType.LongChim_Yellow;
-                break;
-            case BirdType.Bird_012:
-                effectType = ParticleEffectType.LongChim_Red;
-                break;
-            case BirdType.Bird_013:
-                effectType = ParticleEffectType.LongChim_Cyan;
-                break;
-            case BirdType.Bird_014:
-                effectType = ParticleEffectType.LongChim_Blue;
-                break;
-            case BirdType.Bird_015:
-                effectType = ParticleEffectType.LongChim_Purple;
-                break;
-            case BirdType.Bird_016:
-                effectType = ParticleEffectType.LongChim_Green;
-                break;
-            case BirdType.Bird_017:
-                effectType = ParticleEffectType.LongChim_Orange;
-                break;
-            case BirdType.Bird_018:
-                effectType = ParticleEffectType.LongChim_Pink;
-                break;
+        ParticleEffectType effectType = ParticleEffectType.LongChimTrang;
+        // switch (birdType)
+        // {
+        //     case BirdType.Bird_001:
+        //         effectType = ParticleEffectType.LongChim_001;
+        //         break;
+        //     case BirdType.Bird_002:
+        //         effectType = ParticleEffectType.LongChim_Orange;
+        //         break;
+        //     case BirdType.Bird_003:
+        //         effectType = ParticleEffectType.LongChim_002;
+        //         break;
+        //     case BirdType.Bird_004:
+        //         effectType = ParticleEffectType.LongChim_003;
+        //         break;
+        //     case BirdType.Bird_005:
+        //         effectType = ParticleEffectType.LongChim_004;
+        //         break;
+        //     case BirdType.Bird_006:
+        //         effectType = ParticleEffectType.LongChim_005;
+        //         break;
+        //     case BirdType.Bird_007:
+        //         effectType = ParticleEffectType.LongChim_006;
+        //         break;
+        //     case BirdType.Bird_008:
+        //         effectType = ParticleEffectType.LongChim_007;
+        //         break;
+        //     case BirdType.Bird_009:
+        //         effectType = ParticleEffectType.LongChim_Orange;
+        //         break;
+        //     case BirdType.Bird_010:
+        //         effectType = ParticleEffectType.LongChim_008;
+        //         break;
+        //     case BirdType.Bird_011:
+        //         effectType = ParticleEffectType.LongChim_Yellow;
+        //         break;
+        //     case BirdType.Bird_012:
+        //         effectType = ParticleEffectType.LongChim_Red;
+        //         break;
+        //     case BirdType.Bird_013:
+        //         effectType = ParticleEffectType.LongChim_Cyan;
+        //         break;
+        //     case BirdType.Bird_014:
+        //         effectType = ParticleEffectType.LongChim_Blue;
+        //         break;
+        //     case BirdType.Bird_015:
+        //         effectType = ParticleEffectType.LongChim_Purple;
+        //         break;
+        //     case BirdType.Bird_016:
+        //         effectType = ParticleEffectType.LongChim_Green;
+        //         break;
+        //     case BirdType.Bird_017:
+        //         effectType = ParticleEffectType.LongChim_Orange;
+        //         break;
+        //     case BirdType.Bird_018:
+        //         effectType = ParticleEffectType.LongChim_Pink;
+        //         break;
 
-        }
+        // }
 
         ParticlesManager.Ins.PlayEffect(effectType, transform.position);
     }
