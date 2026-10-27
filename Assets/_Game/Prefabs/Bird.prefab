@@ -225,7 +225,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &490835071654135045
 RectTransform:
   m_ObjectHideFlags: 0
@@ -265,7 +265,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 4988924419105489117, guid: f728915a33c8ba84db9894c1e2508a6d, type: 2}
+  - {fileID: 3071770289615411621, guid: 332350259ae9b8f47b88fec873763723, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -309,8 +309,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: '?'
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: f728915a33c8ba84db9894c1e2508a6d, type: 2}
-  m_sharedMaterial: {fileID: 4988924419105489117, guid: f728915a33c8ba84db9894c1e2508a6d, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 332350259ae9b8f47b88fec873763723, type: 2}
+  m_sharedMaterial: {fileID: 3071770289615411621, guid: 332350259ae9b8f47b88fec873763723, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -334,12 +334,12 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 36
+  m_fontSize: 16
   m_fontSizeBase: 36
   m_fontWeight: 400
-  m_enableAutoSizing: 0
-  m_fontSizeMin: 18
-  m_fontSizeMax: 72
+  m_enableAutoSizing: 1
+  m_fontSizeMin: 2.1
+  m_fontSizeMax: 16
   m_fontStyle: 0
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 512
@@ -644,6 +644,8 @@ MonoBehaviour:
     birdId: 0
     spriteIcon: {fileID: 0}
     skeletonDataAsset: {fileID: 0}
+    skinName: 
+    skeletonSprite: {fileID: 0}
   _moveDuration: 0.15
   _slotScale: 0.75
   _flightSpeed: 20
@@ -656,6 +658,7 @@ MonoBehaviour:
   _skeletalRenderer: {fileID: 4690014150644457454}
   _idleUpdateFps: 40
   _freezeSpineInBubble: 1
+  _freezeSpineWhenSleeping: 1
   Content: {fileID: 927277494035271843}
   trailParticles:
   - {fileID: 6243009825828134842}

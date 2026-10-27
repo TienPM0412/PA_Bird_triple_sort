@@ -37,8 +37,11 @@ public class GameplayUI : UICanvas
     [Header("Pre Win Panel")]
     [SerializeField] private GameObject PanelPreWin;
     [SerializeField] private Transform textPanelWinTransform;
-    [SerializeField] private ColorBirdLogoAnimator preWinLogo;
+    [SerializeField] private Image winPulseImage;
+    [SerializeField] private float winPulseScale = 1.1f;
+    [SerializeField, Min(0.01f)] private float winPulseDuration = 0.5f;
     [SerializeField] private Button btnPreWinContinue;
+    [SerializeField] private Button btnPlayAgain;
     [Tooltip("Chan nhan trong khoang nay de nguoi choi khong vo tinh bam qua.")]
     [SerializeField] private float preWinTapDelay = 0.8f;
     private bool canContinuePreWin;
@@ -76,6 +79,7 @@ public class GameplayUI : UICanvas
         replayButton.action.AddListener(OnReplayButtonClick);
         canlelSettingButton.onClick.AddListener(OnSettingButtonClick);
         btnPreWinContinue.onClick.AddListener(OnPreWinContinue);
+        btnPlayAgain.onClick.AddListener(OnPreWinContinue);
         if (clearSlingshot != null)
         {
             slingshotBaseScale = clearSlingshot.transform.localScale;
@@ -254,6 +258,7 @@ public class GameplayUI : UICanvas
         canContinuePreWin = false;
         PanelPreWin.transform.localScale = Vector3.one;
         textPanelWinTransform.localScale = Vector3.zero;
+        if (winPulseImage != null) winPulseImage.transform.localScale = Vector3.one;
         PanelPreWin.SetActive(false);
     }
 
@@ -284,18 +289,24 @@ public class GameplayUI : UICanvas
         ResetPreWin();
         SoundManager.Ins.PlaySFX(SoundFX.Win);
         PanelPreWin.SetActive(true);
-        preWinRoutine = StartCoroutine(IE_PreWinLogo());
+        PlayWinPulse();
+        preWinRoutine = StartCoroutine(IE_PreWinTapDelay());
     }
 
-    private IEnumerator IE_PreWinLogo()
+    /// <summary>Image trong panel win phóng to/thu nhỏ lặp vô hạn; KillPreWin sẽ dừng.</summary>
+    private void PlayWinPulse()
     {
-        if (preWinLogo != null)
-        {
-            // Chỉ chạy intro rồi giữ logo ở trạng thái idle, không chạy outro vì panel không tự đóng nữa.
-            preWinLogo.loopIntroOutro = false;
-            preWinLogo.Play();
-        }
+        if (winPulseImage == null) return;
+        Transform t = winPulseImage.transform;
+        t.localScale = Vector3.one;
+        preWinSequence = DOTween.Sequence()
+            .Append(t.DOScale(winPulseScale, winPulseDuration).SetEase(Ease.InOutSine))
+            .SetLoops(-1, LoopType.Yoyo)
+            .SetUpdate(true);
+    }
 
+    private IEnumerator IE_PreWinTapDelay()
+    {
         // Chặn bấm trong preWinTapDelay để người chơi không vô tình bấm qua.
         yield return new WaitForSecondsRealtime(preWinTapDelay);
         canContinuePreWin = true;

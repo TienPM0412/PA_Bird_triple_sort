@@ -147,6 +147,8 @@ public class Bird : MonoBehaviour, IClickable, ISlotable, IPoolable
             _skeletalAnimation.skeletonDataAsset = birdData != null
                 ? birdData.skeletonDataAsset
                 : null;
+            // Nhiều loại chim dùng chung 1 file Spine, phân biệt bằng skin (BirdData.skinName). Trống = skin default.
+            _skeletalAnimation.initialSkinName = birdData != null ? birdData.skinName : null;
             _skeletalAnimation.Initialize(true);
 
             if (_skeletalAnimation.Skeleton != null)
@@ -867,30 +869,61 @@ public class Bird : MonoBehaviour, IClickable, ISlotable, IPoolable
         ParticleEffectType effectType = ParticleEffectType.LongChim_Blue;
         switch (birdType)
         {
-            case BirdType.Blue:
-                effectType = ParticleEffectType.LongChim_Blue;
+            case BirdType.Bird_001:
+                effectType = ParticleEffectType.LongChim_001;
                 break;
-            case BirdType.Orange:
+            case BirdType.Bird_002:
                 effectType = ParticleEffectType.LongChim_Orange;
                 break;
-            case BirdType.Cyan:
-                effectType = ParticleEffectType.LongChim_Cyan;
+            case BirdType.Bird_003:
+                effectType = ParticleEffectType.LongChim_002;
                 break;
-            case BirdType.Green:
-                effectType = ParticleEffectType.LongChim_Green;
+            case BirdType.Bird_004:
+                effectType = ParticleEffectType.LongChim_003;
                 break;
-            case BirdType.Pink:
-                effectType = ParticleEffectType.LongChim_Pink;
+            case BirdType.Bird_005:
+                effectType = ParticleEffectType.LongChim_004;
                 break;
-            case BirdType.Purple:
-                effectType = ParticleEffectType.LongChim_Purple;
+            case BirdType.Bird_006:
+                effectType = ParticleEffectType.LongChim_005;
                 break;
-            case BirdType.Red:
-                effectType = ParticleEffectType.LongChim_Red;
+            case BirdType.Bird_007:
+                effectType = ParticleEffectType.LongChim_006;
                 break;
-            case BirdType.Yellow:
+            case BirdType.Bird_008:
+                effectType = ParticleEffectType.LongChim_007;
+                break;
+            case BirdType.Bird_009:
+                effectType = ParticleEffectType.LongChim_Orange;
+                break;
+            case BirdType.Bird_010:
+                effectType = ParticleEffectType.LongChim_008;
+                break;
+            case BirdType.Bird_011:
                 effectType = ParticleEffectType.LongChim_Yellow;
                 break;
+            case BirdType.Bird_012:
+                effectType = ParticleEffectType.LongChim_Red;
+                break;
+            case BirdType.Bird_013:
+                effectType = ParticleEffectType.LongChim_Cyan;
+                break;
+            case BirdType.Bird_014:
+                effectType = ParticleEffectType.LongChim_Blue;
+                break;
+            case BirdType.Bird_015:
+                effectType = ParticleEffectType.LongChim_Purple;
+                break;
+            case BirdType.Bird_016:
+                effectType = ParticleEffectType.LongChim_Green;
+                break;
+            case BirdType.Bird_017:
+                effectType = ParticleEffectType.LongChim_Orange;
+                break;
+            case BirdType.Bird_018:
+                effectType = ParticleEffectType.LongChim_Pink;
+                break;
+
         }
 
         ParticlesManager.Ins.PlayEffect(effectType, transform.position);

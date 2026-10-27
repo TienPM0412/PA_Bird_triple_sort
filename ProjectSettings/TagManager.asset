@@ -11,6 +11,13 @@ TagManager:
   - 
   - Water
   - UI
+  - Clickable
+  - Blocker
+  - 
+  - Dock
+  - 
+  - 
+  - FX
   - 
   - 
   - 
@@ -27,16 +34,9 @@ TagManager:
   - 
   - 
   - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
+  - BirdTut
+  - Tutorial
+  - Conf
   m_SortingLayers:
   - name: Default
     uniqueID: 0

@@ -38,13 +38,27 @@ public static class SoundFX
     public const string Win_Fireworks1 = "Win_Fireworks1";
     public const string Win_Fireworks2 = "Win_Fireworks2";
     public const string Net = "net";
-    public const string Pop_Prize_1 = "Pop Prize 1";
-    public const string Pop_Prize_2 = "Pop Prize 2";
+    public const string Pop_Prize_1 = "ingame_sort_completed_1";
+    public const string Pop_Prize_2 = "ingame_sort_completed_2";
     public const string Pop_Prize_3 = "Pop Prize 3";
     public const string Pop_Prize_4 = "Pop Prize 4";
     public const string Pop_Prize_5 = "Pop Prize 5";
     public const string SFX_Level_Change = "sfx_LvChange";
     public const string SFX_Coins_Appear = "coins_appear";
     public const string SFX_Coin_Counts = "coin_counts";
-    
+    public const string SFX_Bird_1 = "bird_1";
+    public const string SFX_Bird_2 = "bird_2";
+    public const string SFX_Bird_3 = "bird_3";
+    public const string SFX_Bird_4 = "bird_4";
+    public const string SFX_Bird_5 = "bird_5";
+    public const string SFX_Bird_6 = "bird_6";
+    public const string SFX_Bird_7 = "bird_7";
+    public const string SFX_Bird_8 = "bird_8";
+    public const string SFX_Rubber = "rubber";
+    public const string SFX_Shoot_Woosh = "shoot_woosh";
+    public const string SFX_Shuffle = "shuffle";
+    public const string SFX_Bird1 = "Bird1";
+    public const string SFX_Bird2 = "Bird2";
+    public const string SFX_Bird3 = "Bird3";
+
 }

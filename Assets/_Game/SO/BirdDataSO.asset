@@ -15,33 +15,109 @@ MonoBehaviour:
   birds:
   - birdType: 1
     birdId: 1
-    spriteIcon: {fileID: 21300000, guid: 4f824e428cc8d104a850a960f72c8ca2, type: 3}
-    skeletonDataAsset: {fileID: 11400000, guid: 30e2d4c95e9a4d6458c71c8ad3065f7e, type: 2}
+    spriteIcon: {fileID: 21300000, guid: f3f6410670679004682ac0b22969c221, type: 3}
+    skeletonDataAsset: {fileID: 11400000, guid: 5b423501cbb979440bbb882c6cdf6215, type: 2}
+    skinName: 1
+    skeletonSprite: {fileID: 0}
   - birdType: 2
     birdId: 2
-    spriteIcon: {fileID: 21300000, guid: 2992b9ee4489fb74487ee0f2d8e5dec6, type: 3}
-    skeletonDataAsset: {fileID: 11400000, guid: 933947a8655c2b14490f556c056639dc, type: 2}
+    spriteIcon: {fileID: 21300000, guid: 308250f9e9237f04f80bc518161571a2, type: 3}
+    skeletonDataAsset: {fileID: 11400000, guid: 5b423501cbb979440bbb882c6cdf6215, type: 2}
+    skinName: 2
+    skeletonSprite: {fileID: 0}
   - birdType: 3
     birdId: 3
-    spriteIcon: {fileID: 21300000, guid: 5774cb0889938a14fb9cf8574940cc60, type: 3}
-    skeletonDataAsset: {fileID: 11400000, guid: b34aa592856618e40bfeadb626f7ae79, type: 2}
+    spriteIcon: {fileID: 21300000, guid: ff85be46b1c37b94e8cfe8d831a01e92, type: 3}
+    skeletonDataAsset: {fileID: 11400000, guid: 5b423501cbb979440bbb882c6cdf6215, type: 2}
+    skinName: 3
+    skeletonSprite: {fileID: 0}
   - birdType: 4
     birdId: 4
-    spriteIcon: {fileID: 21300000, guid: 7d52e83acd5e45749a296a1d933df98a, type: 3}
-    skeletonDataAsset: {fileID: 11400000, guid: 3ee24d80a3f02df449323e4f4bbfe801, type: 2}
+    spriteIcon: {fileID: 21300000, guid: 422bf620bbdb3af4980714998f2d47af, type: 3}
+    skeletonDataAsset: {fileID: 11400000, guid: 5b423501cbb979440bbb882c6cdf6215, type: 2}
+    skinName: 4
+    skeletonSprite: {fileID: 0}
   - birdType: 5
     birdId: 5
-    spriteIcon: {fileID: 21300000, guid: 9eabd1bcf36c0054eb267592a189a760, type: 3}
-    skeletonDataAsset: {fileID: 11400000, guid: 1eca3260e4724134ba75d5cd126b1495, type: 2}
+    spriteIcon: {fileID: 21300000, guid: 6be93d9aab05d6644bf99281d8662a70, type: 3}
+    skeletonDataAsset: {fileID: 11400000, guid: 5b423501cbb979440bbb882c6cdf6215, type: 2}
+    skinName: 5
+    skeletonSprite: {fileID: 0}
   - birdType: 6
     birdId: 6
-    spriteIcon: {fileID: 21300000, guid: c6caa3d8f3387de4883706d766d3dfea, type: 3}
-    skeletonDataAsset: {fileID: 11400000, guid: ef07d6ee5674d9b4f8a0919768a3524a, type: 2}
+    spriteIcon: {fileID: 21300000, guid: 5f81fbef81d599a4db0083f863122907, type: 3}
+    skeletonDataAsset: {fileID: 11400000, guid: 5b423501cbb979440bbb882c6cdf6215, type: 2}
+    skinName: 6
+    skeletonSprite: {fileID: 0}
   - birdType: 7
     birdId: 7
-    spriteIcon: {fileID: 21300000, guid: 3d75e85bba82fd7408ccd82802bed75c, type: 3}
-    skeletonDataAsset: {fileID: 11400000, guid: 12d0827eeab467b42906ef4afa3ce15f, type: 2}
+    spriteIcon: {fileID: 21300000, guid: 601d95e08fe089c40b6157c7fd5d15ad, type: 3}
+    skeletonDataAsset: {fileID: 11400000, guid: 5b423501cbb979440bbb882c6cdf6215, type: 2}
+    skinName: 7
+    skeletonSprite: {fileID: 0}
   - birdType: 8
     birdId: 8
-    spriteIcon: {fileID: 21300000, guid: fc15245f55479804ea9b764e31271982, type: 3}
+    spriteIcon: {fileID: 21300000, guid: 2b934d627bb228849a18192c89f2d95b, type: 3}
+    skeletonDataAsset: {fileID: 11400000, guid: 5b423501cbb979440bbb882c6cdf6215, type: 2}
+    skinName: 8
+    skeletonSprite: {fileID: 0}
+  - birdType: 9
+    birdId: 9
+    spriteIcon: {fileID: 21300000, guid: 3262df6d16a4ac3448a2a33ed47fab2f, type: 3}
+    skeletonDataAsset: {fileID: 11400000, guid: 5b423501cbb979440bbb882c6cdf6215, type: 2}
+    skinName: 9
+    skeletonSprite: {fileID: 0}
+  - birdType: 10
+    birdId: 10
+    spriteIcon: {fileID: 21300000, guid: f879c9c1044dc7a47b7add12ecb7a66d, type: 3}
+    skeletonDataAsset: {fileID: 11400000, guid: 5b423501cbb979440bbb882c6cdf6215, type: 2}
+    skinName: 10
+    skeletonSprite: {fileID: 0}
+  - birdType: 11
+    birdId: 11
+    spriteIcon: {fileID: 21300000, guid: 23656b03c6bc9434ab65770b6edbf308, type: 3}
     skeletonDataAsset: {fileID: 11400000, guid: 81479739149474e4e80b761bdda3b159, type: 2}
+    skinName: 
+    skeletonSprite: {fileID: 0}
+  - birdType: 12
+    birdId: 12
+    spriteIcon: {fileID: 21300000, guid: 28672afdcefbdd4428fdadbb04610613, type: 3}
+    skeletonDataAsset: {fileID: 11400000, guid: 12d0827eeab467b42906ef4afa3ce15f, type: 2}
+    skinName: 
+    skeletonSprite: {fileID: 0}
+  - birdType: 13
+    birdId: 13
+    spriteIcon: {fileID: 21300000, guid: 9cb30f53b01e8454984d30a7d953672c, type: 3}
+    skeletonDataAsset: {fileID: 11400000, guid: b34aa592856618e40bfeadb626f7ae79, type: 2}
+    skinName: 
+    skeletonSprite: {fileID: 0}
+  - birdType: 14
+    birdId: 14
+    spriteIcon: {fileID: 21300000, guid: 36bc16272fa4e64408b9b22731238138, type: 3}
+    skeletonDataAsset: {fileID: 11400000, guid: 30e2d4c95e9a4d6458c71c8ad3065f7e, type: 2}
+    skinName: 
+    skeletonSprite: {fileID: 0}
+  - birdType: 15
+    birdId: 15
+    spriteIcon: {fileID: 21300000, guid: 70e57ea4f6e7d474698b28d3349e457c, type: 3}
+    skeletonDataAsset: {fileID: 11400000, guid: ef07d6ee5674d9b4f8a0919768a3524a, type: 2}
+    skinName: 
+    skeletonSprite: {fileID: 0}
+  - birdType: 16
+    birdId: 16
+    spriteIcon: {fileID: 21300000, guid: ea2e630839e136047b350506bb13564a, type: 3}
+    skeletonDataAsset: {fileID: 11400000, guid: 3ee24d80a3f02df449323e4f4bbfe801, type: 2}
+    skinName: 
+    skeletonSprite: {fileID: 0}
+  - birdType: 17
+    birdId: 17
+    spriteIcon: {fileID: 21300000, guid: 78de2c28308e18e4db4147ff4dd2975c, type: 3}
+    skeletonDataAsset: {fileID: 11400000, guid: 933947a8655c2b14490f556c056639dc, type: 2}
+    skinName: 
+    skeletonSprite: {fileID: 0}
+  - birdType: 18
+    birdId: 18
+    spriteIcon: {fileID: 21300000, guid: f89e993e5f324e042b06bce72688779e, type: 3}
+    skeletonDataAsset: {fileID: 11400000, guid: 1eca3260e4724134ba75d5cd126b1495, type: 2}
+    skinName: 
+    skeletonSprite: {fileID: 0}
