@@ -718,6 +718,37 @@ SpriteMask:
   m_BackSortingOrder: 22
   m_IsCustomRangeActive: 1
   m_SpriteSortPoint: 0
+--- !u!1 &188644827
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 188644828}
+  m_Layer: 0
+  m_Name: TutManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &188644828
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 188644827}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &275337150
 GameObject:
   m_ObjectHideFlags: 0
@@ -1517,7 +1548,7 @@ MonoBehaviour:
   boardManager: {fileID: 8802201925530581029}
   levelDifficultyFile: {fileID: 4900000, guid: 9d3bce1f8bce2db4a81b5fe1c9ef645b, type: 3}
   totalLevelCount: 400
-  playableLevel: 1
+  playableLevel: 2
   birdPrefab: {fileID: 6171585931733437763, guid: fb4f86fe5ea793146a31a19518a0d68a, type: 3}
   levelSets:
   - name: Custom18
@@ -37330,3 +37361,4 @@ SceneRoots:
   - {fileID: 2088142859}
   - {fileID: 1643898184}
   - {fileID: 15892877}
+  - {fileID: 188644828}
