@@ -59,8 +59,15 @@ public class GameplayUI : UICanvas
     public BoosterItemUI[] BoosterItemUIs => boosterItemUIs;
     public override string TrackPosition => "ingame";
 
+    // Playable Ads không dùng UIManager: GameplayUI đặt sẵn trong scene, script khác gọi qua Ins.
+    public static GameplayUI Ins { get; private set; }
+
+    [Header("Lose")]
+    [SerializeField] private LoseUI loseUI;
+
     void Awake()
     {
+        Ins = this;
         settingButton.action.AddListener(OnSettingButtonClick);
         outButton.action.AddListener(OnOutButtonClick);
         musicButton.action.AddListener(OnMusicButtonClick);
@@ -293,6 +300,23 @@ public class GameplayUI : UICanvas
         yield return new WaitForSecondsRealtime(preWinTapDelay);
         canContinuePreWin = true;
         preWinRoutine = null;
+    }
+
+    /// Mở màn thua (LoseUI con của GameplayUI). LoseUI.Open() tự gọi GameEnded.
+    public void ShowLose()
+    {
+        if (loseUI == null)
+        {
+            Debug.LogError("GameplayUI: chưa gán loseUI trong Inspector.", this);
+            return;
+        }
+
+        loseUI.Open();
+    }
+
+    private void OnDestroy()
+    {
+        if (Ins == this) Ins = null;
     }
 
     private void OnPreWinContinue()

@@ -1536,10 +1536,6 @@
                 "excluded": true
             },
             {
-                "name": "UnityEngine.ContextMenu",
-                "excluded": true
-            },
-            {
                 "name": "UnityEngine.ControllerColliderHit",
                 "excluded": true
             },
@@ -3833,7 +3829,7 @@
             },
             {
                 "name": "UnityEngine.ExecuteInEditModeAttribute",
-                "excluded": true
+                "excluded": false
             },
             {
                 "name": "UnityEngine.Experimental.AI.NavMeshPolyTypes",
@@ -3929,7 +3925,7 @@
             },
             {
                 "name": "UnityEngine.FontStyle",
-                "excluded": true
+                "excluded": false
             },
             {
                 "name": "UnityEngine.ForceMode",
@@ -3985,7 +3981,7 @@
             },
             {
                 "name": "UnityEngine.HorizontalWrapMode",
-                "excluded": true
+                "excluded": false
             },
             {
                 "name": "UnityEngine.HumanBodyBones",
@@ -5757,7 +5753,7 @@
             },
             {
                 "name": "UnityEngine.VerticalWrapMode",
-                "excluded": true
+                "excluded": false
             },
             {
                 "name": "UnityEngine.VFX.VFXCameraBufferTypes",
@@ -6340,10 +6336,6 @@
                 "excluded": true
             },
             {
-                "name": "UnityEngine.EventSystems.EventTrigger.Entry",
-                "excluded": true
-            },
-            {
                 "name": "UnityEngine.UI.ClipperRegistry",
                 "excluded": true
             },
@@ -6368,10 +6360,6 @@
                 "excluded": true
             },
             {
-                "name": "UnityEngine.UI.FontData",
-                "excluded": true
-            },
-            {
                 "name": "UnityEngine.UI.Misc",
                 "excluded": true
             },
@@ -6381,10 +6369,6 @@
             },
             {
                 "name": "UnityEngine.UI.ReflectionMethodsCache",
-                "excluded": true
-            },
-            {
-                "name": "UnityEngine.UI.SetPropertyUtility",
                 "excluded": true
             },
             {
@@ -6400,15 +6384,7 @@
                 "excluded": true
             },
             {
-                "name": "UnityEngine.UI.LayoutElement",
-                "excluded": true
-            },
-            {
                 "name": "UnityEngine.UI.ToggleGroup",
-                "excluded": true
-            },
-            {
-                "name": "UnityEngine.EventSystems.EventTrigger",
                 "excluded": true
             },
             {
@@ -6537,7 +6513,7 @@
             },
             {
                 "name": "UnityEngine.UI.ILayoutIgnorer",
-                "excluded": true
+                "excluded": false
             },
             {
                 "name": "UnityEngine.UI.Image.FillMethod",
@@ -6637,7 +6613,7 @@
             },
             {
                 "name": "UnityEngine.EventSystems.ICancelHandler",
-                "excluded": true
+                "excluded": false
             },
             {
                 "name": "UnityEngine.EventSystems.ISubmitHandler",
@@ -6653,7 +6629,7 @@
             },
             {
                 "name": "UnityEngine.EventSystems.IDropHandler",
-                "excluded": true
+                "excluded": false
             },
             {
                 "name": "UnityEngine.EventSystems.IEndDragHandler",
@@ -6685,7 +6661,7 @@
             },
             {
                 "name": "UnityEngine.EventSystems.EventTrigger.TriggerEvent",
-                "excluded": true
+                "excluded": false
             },
             {
                 "name": "UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset",
@@ -7588,10 +7564,6 @@
                 "excluded": true
             },
             {
-                "name": "Spine.Unity.SkeletonExtensions",
-                "excluded": true
-            },
-            {
                 "name": "Spine.Unity.SkeletonGraphicCustomMaterials",
                 "excluded": true
             },
@@ -7629,10 +7601,6 @@
             },
             {
                 "name": "Spine.Unity.SkeletonRootMotionBase.RootMotionInfo",
-                "excluded": true
-            },
-            {
-                "name": "Spine.Unity.SkeletonSubmeshGraphic",
                 "excluded": true
             },
             {
@@ -7804,10 +7772,6 @@
                 "excluded": true
             },
             {
-                "name": "Spine.PathAttachment",
-                "excluded": true
-            },
-            {
                 "name": "Spine.PathConstraintMixTimeline",
                 "excluded": true
             },
@@ -7840,15 +7804,7 @@
                 "excluded": true
             },
             {
-                "name": "Spine.Unity.SkeletonGraphic",
-                "excluded": true
-            },
-            {
                 "name": "Spine.AlphaTimeline",
-                "excluded": true
-            },
-            {
-                "name": "Spine.PathConstraintPositionTimeline",
                 "excluded": true
             },
             {
@@ -8101,7 +8057,7 @@
             },
             {
                 "name": "Spine.PositionMode",
-                "excluded": true
+                "excluded": false
             },
             {
                 "name": "Spine.Property",
@@ -8109,7 +8065,7 @@
             },
             {
                 "name": "Spine.RotateMode",
-                "excluded": true
+                "excluded": false
             },
             {
                 "name": "Spine.SequenceMode",
@@ -8125,7 +8081,7 @@
             },
             {
                 "name": "Spine.SpacingMode",
-                "excluded": true
+                "excluded": false
             },
             {
                 "name": "Spine.TextureFilter",
@@ -8177,7 +8133,7 @@
             },
             {
                 "name": "Spine.Unity.SkeletonGraphic.LayoutMode",
-                "excluded": true
+                "excluded": false
             },
             {
                 "name": "Spine.Unity.SkeletonMecanim.MecanimTranslator.MixMode",
@@ -9216,10 +9172,6 @@
                 "excluded": false
             },
             {
-                "name": "LoseUI",
-                "excluded": true
-            },
-            {
                 "name": "ColorBirdLogoAnimator.LayerInfo",
                 "excluded": false
             },
@@ -9405,7 +9357,7 @@
                     },
                     {
                         "name": "isSeparator",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "isPunctuation",
@@ -11931,7 +11883,7 @@
                     },
                     {
                         "name": "ctor",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "GetEnumerator",
@@ -11939,7 +11891,7 @@
                     },
                     {
                         "name": "System$Collections$Generic$IEnumerable$1$GetEnumerator",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "System$Collections$IEnumerable$GetEnumerator",
@@ -18017,7 +17969,7 @@
                     },
                     {
                         "name": "SetAsFirstSibling",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "GetEnumerator",
@@ -19847,7 +19799,7 @@
                     },
                     {
                         "name": "material#get",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "material#set",
@@ -19899,7 +19851,7 @@
                     },
                     {
                         "name": "OnPopulateMesh",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "SetMaterialDirty",
@@ -19915,7 +19867,7 @@
                     },
                     {
                         "name": "GetPixelAdjustedRect",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "OnSelect",
@@ -20033,7 +19985,7 @@
                 "instanceMethods": [
                     {
                         "name": "onCullStateChanged#get",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "onCullStateChanged#set",
@@ -20395,7 +20347,7 @@
                 "instanceMethods": [
                     {
                         "name": "material#get",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "material#set",
@@ -20403,7 +20355,7 @@
                     },
                     {
                         "name": "fontData#get",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "fontData#set",
@@ -20411,7 +20363,7 @@
                     },
                     {
                         "name": "mainTexture#get",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "alignment#get",
@@ -20543,7 +20495,7 @@
                     },
                     {
                         "name": "init",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "$ctor1",
@@ -20551,19 +20503,19 @@
                     },
                     {
                         "name": "ctor",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "ConfigureForEntity",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "Awake",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "OnEnable",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "OnDisable",
@@ -20571,7 +20523,7 @@
                     },
                     {
                         "name": "ApplyFontDataChanges",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "CalculateLayoutInputHorizontal",
@@ -20749,7 +20701,7 @@
                     },
                     {
                         "name": "$clone",
-                        "excluded": true
+                        "excluded": false
                     }
                 ]
             },
@@ -20867,7 +20819,7 @@
                     },
                     {
                         "name": "fontSharedMaterial#get",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "fontSharedMaterial#set",
@@ -21055,7 +21007,7 @@
                     },
                     {
                         "name": "isUsingBold#get",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "horizontalAlignment#get",
@@ -21183,7 +21135,7 @@
                     },
                     {
                         "name": "extraPadding#get",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "extraPadding#set",
@@ -21359,7 +21311,7 @@
                     },
                     {
                         "name": "havePropertiesChanged#set",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "isUsingLegacyAnimationComponent#get",
@@ -21711,7 +21663,7 @@
                     },
                     {
                         "name": "ResizeInternalArray$1",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "AddFloatToInternalTextBackingArray",
@@ -22329,7 +22281,7 @@
                     },
                     {
                         "name": "defaultFontAsset#get",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "defaultFontAssetPath#get",
@@ -22369,11 +22321,11 @@
                     },
                     {
                         "name": "fallbackFontAssets#get",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "matchMaterialPreset#get",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "defaultSpriteAsset#get",
@@ -24815,7 +24767,7 @@
                     },
                     {
                         "name": "RegisterLose",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "ResetLoseStreak",
@@ -25501,7 +25453,7 @@
                     },
                     {
                         "name": "TriggerLose",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "TryUnlockDock",
@@ -26127,7 +26079,7 @@
                     },
                     {
                         "name": "SetItem",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "RemoveItem",
@@ -27175,7 +27127,7 @@
                     },
                     {
                         "name": "Set",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "Remove",
@@ -27293,7 +27245,7 @@
                     },
                     {
                         "name": "shader#get",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "shader#set",
@@ -27341,7 +27293,7 @@
                     },
                     {
                         "name": "$ctor1",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "$ctor2",
@@ -27449,11 +27401,11 @@
                     },
                     {
                         "name": "SetTexture$1",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "SetTexture",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "GetTextureScale$1",
@@ -27581,7 +27533,7 @@
                     },
                     {
                         "name": "ComputeCRC",
-                        "excluded": true
+                        "excluded": false
                     }
                 ]
             },
@@ -29921,15 +29873,15 @@
                     },
                     {
                         "name": "AddTriangle",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "AddVert",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "AddVert$1",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "AddVert$2",
@@ -29941,7 +29893,7 @@
                     },
                     {
                         "name": "Clear",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "AddUIVertexQuad",
@@ -29965,7 +29917,7 @@
                     },
                     {
                         "name": "FillMesh",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "FromMesh",
@@ -30775,7 +30727,7 @@
                 "instanceMethods": [
                     {
                         "name": "getDefaultValue",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "init",
@@ -30795,7 +30747,7 @@
                     },
                     {
                         "name": "$clone",
-                        "excluded": true
+                        "excluded": false
                     }
                 ]
             },
@@ -31103,7 +31055,7 @@
                     },
                     {
                         "name": "getDefaultValue",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "$ctor1",
@@ -31135,7 +31087,7 @@
                     },
                     {
                         "name": "ClearUnusedVertices",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "ClearUnusedVertices$1",
@@ -31565,7 +31517,7 @@
                 "instanceMethods": [
                     {
                         "name": "getDefaultValue",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "ctor",
@@ -31581,7 +31533,7 @@
                     },
                     {
                         "name": "$clone",
-                        "excluded": true
+                        "excluded": false
                     }
                 ]
             },
@@ -31599,7 +31551,7 @@
                     },
                     {
                         "name": "Resize$1",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "ctor",
@@ -31919,7 +31871,7 @@
                     },
                     {
                         "name": "$clone",
-                        "excluded": true
+                        "excluded": false
                     }
                 ]
             },
@@ -32431,7 +32383,7 @@
                     },
                     {
                         "name": "atlasPopulationMode#get",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "atlasPopulationMode#set",
@@ -35063,7 +35015,7 @@
                     },
                     {
                         "name": "PlayAnimationUI",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "GetBorderVector",
@@ -35613,15 +35565,15 @@
                     },
                     {
                         "name": "LoseStreakLevelId#set",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "LoseStreakCount#get",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "LoseStreakCount#set",
-                        "excluded": true
+                        "excluded": false
                     }
                 ]
             },
@@ -36683,7 +36635,7 @@
                     },
                     {
                         "name": "MaterialCount#get",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "PrimaryMaterial#get",
@@ -38181,7 +38133,7 @@
                     },
                     {
                         "name": "ScaleVertexData",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "ScaleAndOffsetVertexData",
@@ -40693,7 +40645,7 @@
                     },
                     {
                         "name": "R#set",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "G#get",
@@ -40701,7 +40653,7 @@
                     },
                     {
                         "name": "G#set",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "B#get",
@@ -40709,7 +40661,7 @@
                     },
                     {
                         "name": "B#set",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "A#get",
@@ -40717,7 +40669,7 @@
                     },
                     {
                         "name": "A#set",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "X#get",
@@ -40801,15 +40753,15 @@
                     },
                     {
                         "name": "SortPathConstraint",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "SortPathConstraintAttachment$1",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "SortPathConstraintAttachment",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "SortPhysicsConstraint",
@@ -40861,11 +40813,11 @@
                     },
                     {
                         "name": "SetSkin$1",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "SetSkin",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "GetAttachment$1",
@@ -41129,7 +41081,7 @@
                     },
                     {
                         "name": "FindPathConstraint",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "FindPhysicsConstraint",
@@ -41161,7 +41113,7 @@
                     },
                     {
                         "name": "Attachments#get",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "Bones#get",
@@ -41227,7 +41179,7 @@
                     },
                     {
                         "name": "SlotIndex#get",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "Name#get",
@@ -41235,7 +41187,7 @@
                     },
                     {
                         "name": "Attachment#get",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "$ctor1",
@@ -41483,7 +41435,7 @@
                     },
                     {
                         "name": "NewPathAttachment",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "NewPointAttachment",
@@ -42085,7 +42037,7 @@
                     },
                     {
                         "name": "AddCurvePosition",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "Position#get",
@@ -42149,7 +42101,7 @@
                     },
                     {
                         "name": "$ctor1",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "ctor",
@@ -42161,11 +42113,11 @@
                     },
                     {
                         "name": "Update",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "ComputeWorldPositions",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "toString",
@@ -42179,7 +42131,7 @@
                 "instanceMethods": [
                     {
                         "name": "Bones#get",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "Target#get",
@@ -42263,11 +42215,11 @@
                     },
                     {
                         "name": "init",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "ctor",
-                        "excluded": true
+                        "excluded": false
                     }
                 ]
             },
@@ -46437,7 +46389,7 @@
                 "instanceMethods": [
                     {
                         "name": "AddSubTextObject",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "fontAsset#get",
@@ -46469,7 +46421,7 @@
                     },
                     {
                         "name": "sharedMaterial#get",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "sharedMaterial#set",
@@ -46481,7 +46433,7 @@
                     },
                     {
                         "name": "fallbackMaterial#set",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "fallbackSourceMaterial#get",
@@ -46489,11 +46441,11 @@
                     },
                     {
                         "name": "fallbackSourceMaterial#set",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "materialForRendering#get",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "isDefaultMaterial#get",
@@ -46505,7 +46457,7 @@
                     },
                     {
                         "name": "padding#get",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "padding#set",
@@ -46513,7 +46465,7 @@
                     },
                     {
                         "name": "mesh#get",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "mesh#set",
@@ -46521,19 +46473,19 @@
                     },
                     {
                         "name": "textComponent#get",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "OnEnable",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "OnDisable",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "OnDestroy",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "OnTransformParentChanged",
@@ -46541,11 +46493,11 @@
                     },
                     {
                         "name": "GetModifiedMaterial",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "GetPaddingForMaterial",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "GetPaddingForMaterial$1",
@@ -46561,7 +46513,7 @@
                     },
                     {
                         "name": "SetVerticesDirty",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "SetLayoutDirty",
@@ -46569,7 +46521,7 @@
                     },
                     {
                         "name": "SetMaterialDirty",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "SetPivotDirty",
@@ -46597,11 +46549,11 @@
                     },
                     {
                         "name": "UpdateMaterial",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "RecalculateClipping",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "GetMaterial",
@@ -46621,7 +46573,7 @@
                     },
                     {
                         "name": "SetSharedMaterial",
-                        "excluded": true
+                        "excluded": false
                     }
                 ]
             },
@@ -46815,11 +46767,11 @@
                     },
                     {
                         "name": "Start",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "OnInit",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "Setup",
@@ -46831,7 +46783,7 @@
                     },
                     {
                         "name": "Open",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "CloseDirectly",
@@ -47174,6 +47126,14 @@
                     {
                         "name": "ResetSettingPanel",
                         "excluded": true
+                    },
+                    {
+                        "name": "ShowLose",
+                        "excluded": false
+                    },
+                    {
+                        "name": "OnDestroy",
+                        "excluded": true
                     }
                 ]
             },
@@ -47243,11 +47203,11 @@
                     },
                     {
                         "name": "GetFallbackMaterial",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "AddFallbackMaterialReference",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "RemoveFallbackMaterialReference",
@@ -47255,11 +47215,11 @@
                     },
                     {
                         "name": "CleanupFallbackMaterials",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "ReleaseFallbackMaterial",
-                        "excluded": true
+                        "excluded": false
                     },
                     {
                         "name": "CopyMaterialPresetProperties",
@@ -47640,6 +47600,1006 @@
                         "excluded": true
                     }
                 ]
+            },
+            {
+                "className": "UnityEngine.EventSystems.EventTrigger.Entry",
+                "staticMethods": [],
+                "instanceMethods": [
+                    {
+                        "name": "init",
+                        "excluded": false
+                    },
+                    {
+                        "name": "ctor",
+                        "excluded": false
+                    }
+                ]
+            },
+            {
+                "className": "UnityEngine.UI.FontData",
+                "staticMethods": [],
+                "instanceMethods": [
+                    {
+                        "name": "defaultFontData#get",
+                        "excluded": false
+                    },
+                    {
+                        "name": "font#get",
+                        "excluded": false
+                    },
+                    {
+                        "name": "font#set",
+                        "excluded": true
+                    },
+                    {
+                        "name": "fontSize#get",
+                        "excluded": false
+                    },
+                    {
+                        "name": "fontSize#set",
+                        "excluded": true
+                    },
+                    {
+                        "name": "fontStyle#get",
+                        "excluded": true
+                    },
+                    {
+                        "name": "fontStyle#set",
+                        "excluded": true
+                    },
+                    {
+                        "name": "bestFit#get",
+                        "excluded": false
+                    },
+                    {
+                        "name": "bestFit#set",
+                        "excluded": true
+                    },
+                    {
+                        "name": "minSize#get",
+                        "excluded": false
+                    },
+                    {
+                        "name": "minSize#set",
+                        "excluded": true
+                    },
+                    {
+                        "name": "maxSize#get",
+                        "excluded": false
+                    },
+                    {
+                        "name": "maxSize#set",
+                        "excluded": true
+                    },
+                    {
+                        "name": "alignment#get",
+                        "excluded": false
+                    },
+                    {
+                        "name": "alignment#set",
+                        "excluded": true
+                    },
+                    {
+                        "name": "alignByGeometry#get",
+                        "excluded": true
+                    },
+                    {
+                        "name": "alignByGeometry#set",
+                        "excluded": true
+                    },
+                    {
+                        "name": "richText#get",
+                        "excluded": true
+                    },
+                    {
+                        "name": "richText#set",
+                        "excluded": true
+                    },
+                    {
+                        "name": "horizontalOverflow#get",
+                        "excluded": false
+                    },
+                    {
+                        "name": "horizontalOverflow#set",
+                        "excluded": true
+                    },
+                    {
+                        "name": "verticalOverflow#get",
+                        "excluded": false
+                    },
+                    {
+                        "name": "verticalOverflow#set",
+                        "excluded": true
+                    },
+                    {
+                        "name": "lineSpacing#get",
+                        "excluded": false
+                    },
+                    {
+                        "name": "lineSpacing#set",
+                        "excluded": true
+                    }
+                ]
+            },
+            {
+                "className": "UnityEngine.EventSystems.EventTrigger",
+                "staticMethods": [],
+                "instanceMethods": [
+                    {
+                        "name": "triggers#get",
+                        "excluded": true
+                    },
+                    {
+                        "name": "triggers#set",
+                        "excluded": true
+                    },
+                    {
+                        "name": "init",
+                        "excluded": false
+                    },
+                    {
+                        "name": "OnPointerEnter",
+                        "excluded": true
+                    },
+                    {
+                        "name": "OnPointerExit",
+                        "excluded": true
+                    },
+                    {
+                        "name": "OnDrag",
+                        "excluded": true
+                    },
+                    {
+                        "name": "OnDrop",
+                        "excluded": true
+                    },
+                    {
+                        "name": "OnPointerDown",
+                        "excluded": true
+                    },
+                    {
+                        "name": "OnPointerUp",
+                        "excluded": true
+                    },
+                    {
+                        "name": "OnPointerClick",
+                        "excluded": true
+                    },
+                    {
+                        "name": "OnSelect",
+                        "excluded": true
+                    },
+                    {
+                        "name": "OnDeselect",
+                        "excluded": true
+                    },
+                    {
+                        "name": "OnScroll",
+                        "excluded": true
+                    },
+                    {
+                        "name": "OnMove",
+                        "excluded": true
+                    },
+                    {
+                        "name": "OnUpdateSelected",
+                        "excluded": true
+                    },
+                    {
+                        "name": "OnInitializePotentialDrag",
+                        "excluded": true
+                    },
+                    {
+                        "name": "OnBeginDrag",
+                        "excluded": true
+                    },
+                    {
+                        "name": "OnEndDrag",
+                        "excluded": true
+                    },
+                    {
+                        "name": "OnSubmit",
+                        "excluded": true
+                    },
+                    {
+                        "name": "OnCancel",
+                        "excluded": true
+                    },
+                    {
+                        "name": "Execute",
+                        "excluded": true
+                    }
+                ]
+            },
+            {
+                "className": "Spine.Unity.SkeletonSubmeshGraphic",
+                "staticMethods": [],
+                "instanceMethods": [
+                    {
+                        "name": "init",
+                        "excluded": false
+                    },
+                    {
+                        "name": "SetMaterialDirty",
+                        "excluded": true
+                    },
+                    {
+                        "name": "SetVerticesDirty",
+                        "excluded": true
+                    },
+                    {
+                        "name": "OnPopulateMesh",
+                        "excluded": true
+                    },
+                    {
+                        "name": "OnDisable",
+                        "excluded": true
+                    },
+                    {
+                        "name": "OnEnable",
+                        "excluded": true
+                    },
+                    {
+                        "name": "UpdateModifiedMaterial",
+                        "excluded": true
+                    }
+                ]
+            },
+            {
+                "className": "LoseUI",
+                "staticMethods": [],
+                "instanceMethods": [
+                    {
+                        "name": "TrackPosition#get",
+                        "excluded": true
+                    },
+                    {
+                        "name": "init",
+                        "excluded": false
+                    },
+                    {
+                        "name": "Awake",
+                        "excluded": false
+                    },
+                    {
+                        "name": "Open",
+                        "excluded": false
+                    },
+                    {
+                        "name": "OnRetryButtonClicked",
+                        "excluded": false
+                    },
+                    {
+                        "name": "OnFullScreenButtonClicked",
+                        "excluded": false
+                    }
+                ]
+            },
+            {
+                "className": "Spine.Unity.SkeletonGraphic",
+                "staticMethods": [],
+                "instanceMethods": [
+                    {
+                        "name": "init",
+                        "excluded": false
+                    },
+                    {
+                        "name": "NewSkeletonGraphicGameObject",
+                        "excluded": true
+                    },
+                    {
+                        "name": "AddSkeletonGraphicComponent",
+                        "excluded": true
+                    },
+                    {
+                        "name": "SetRectTransformSize$1",
+                        "excluded": true
+                    },
+                    {
+                        "name": "SetRectTransformSize",
+                        "excluded": true
+                    },
+                    {
+                        "name": "SkeletonDataAsset#get",
+                        "excluded": true
+                    },
+                    {
+                        "name": "color#get",
+                        "excluded": false
+                    },
+                    {
+                        "name": "color#set",
+                        "excluded": true
+                    },
+                    {
+                        "name": "MeshScale#get",
+                        "excluded": true
+                    },
+                    {
+                        "name": "MeshOffset#get",
+                        "excluded": true
+                    },
+                    {
+                        "name": "UpdateMode#get",
+                        "excluded": true
+                    },
+                    {
+                        "name": "UpdateMode#set",
+                        "excluded": true
+                    },
+                    {
+                        "name": "SeparatorParts#get",
+                        "excluded": true
+                    },
+                    {
+                        "name": "CustomTextureOverride#get",
+                        "excluded": true
+                    },
+                    {
+                        "name": "CustomMaterialOverride#get",
+                        "excluded": true
+                    },
+                    {
+                        "name": "OverrideTexture#get",
+                        "excluded": true
+                    },
+                    {
+                        "name": "OverrideTexture#set",
+                        "excluded": true
+                    },
+                    {
+                        "name": "mainTexture#get",
+                        "excluded": false
+                    },
+                    {
+                        "name": "Skeleton#get",
+                        "excluded": true
+                    },
+                    {
+                        "name": "Skeleton#set",
+                        "excluded": true
+                    },
+                    {
+                        "name": "SkeletonData#get",
+                        "excluded": true
+                    },
+                    {
+                        "name": "IsValid#get",
+                        "excluded": false
+                    },
+                    {
+                        "name": "AnimationState#get",
+                        "excluded": false
+                    },
+                    {
+                        "name": "PhysicsPositionInheritanceFactor#get",
+                        "excluded": true
+                    },
+                    {
+                        "name": "PhysicsPositionInheritanceFactor#set",
+                        "excluded": true
+                    },
+                    {
+                        "name": "PhysicsRotationInheritanceFactor#get",
+                        "excluded": true
+                    },
+                    {
+                        "name": "PhysicsRotationInheritanceFactor#set",
+                        "excluded": true
+                    },
+                    {
+                        "name": "PhysicsMovementRelativeTo#get",
+                        "excluded": true
+                    },
+                    {
+                        "name": "PhysicsMovementRelativeTo#set",
+                        "excluded": true
+                    },
+                    {
+                        "name": "MeshGenerator#get",
+                        "excluded": true
+                    },
+                    {
+                        "name": "SkeletonClipping#get",
+                        "excluded": true
+                    },
+                    {
+                        "name": "MeshesMultipleCanvasRenderers#get",
+                        "excluded": true
+                    },
+                    {
+                        "name": "MaterialsMultipleCanvasRenderers#get",
+                        "excluded": true
+                    },
+                    {
+                        "name": "TexturesMultipleCanvasRenderers#get",
+                        "excluded": true
+                    },
+                    {
+                        "name": "UpdateTiming#get",
+                        "excluded": true
+                    },
+                    {
+                        "name": "UpdateTiming#set",
+                        "excluded": true
+                    },
+                    {
+                        "name": "UnscaledTime#get",
+                        "excluded": true
+                    },
+                    {
+                        "name": "UnscaledTime#set",
+                        "excluded": true
+                    },
+                    {
+                        "name": "addAssignMeshOverrideSingleRenderer",
+                        "excluded": true
+                    },
+                    {
+                        "name": "removeAssignMeshOverrideSingleRenderer",
+                        "excluded": true
+                    },
+                    {
+                        "name": "addAssignMeshOverrideMultipleRenderers",
+                        "excluded": true
+                    },
+                    {
+                        "name": "removeAssignMeshOverrideMultipleRenderers",
+                        "excluded": true
+                    },
+                    {
+                        "name": "Awake",
+                        "excluded": false
+                    },
+                    {
+                        "name": "OnDestroy",
+                        "excluded": true
+                    },
+                    {
+                        "name": "Rebuild",
+                        "excluded": false
+                    },
+                    {
+                        "name": "OnDisable",
+                        "excluded": true
+                    },
+                    {
+                        "name": "Update",
+                        "excluded": false
+                    },
+                    {
+                        "name": "Update$1",
+                        "excluded": false
+                    },
+                    {
+                        "name": "FixedUpdate",
+                        "excluded": false
+                    },
+                    {
+                        "name": "SyncSubmeshGraphicsWithCanvasRenderers",
+                        "excluded": false
+                    },
+                    {
+                        "name": "UpdateAnimationStatus",
+                        "excluded": false
+                    },
+                    {
+                        "name": "ApplyTransformMovementToPhysics",
+                        "excluded": false
+                    },
+                    {
+                        "name": "GetPhysicsTransformPosition",
+                        "excluded": false
+                    },
+                    {
+                        "name": "GetPhysicsTransformRotation",
+                        "excluded": false
+                    },
+                    {
+                        "name": "ApplyAnimation",
+                        "excluded": false
+                    },
+                    {
+                        "name": "AfterAnimationApplied",
+                        "excluded": false
+                    },
+                    {
+                        "name": "UpdateWorldTransform",
+                        "excluded": false
+                    },
+                    {
+                        "name": "LateUpdate",
+                        "excluded": false
+                    },
+                    {
+                        "name": "OnCullStateChanged",
+                        "excluded": false
+                    },
+                    {
+                        "name": "OnBecameVisible",
+                        "excluded": true
+                    },
+                    {
+                        "name": "OnBecameInvisible",
+                        "excluded": true
+                    },
+                    {
+                        "name": "ReapplySeparatorSlotNames",
+                        "excluded": true
+                    },
+                    {
+                        "name": "ResetLastPosition",
+                        "excluded": true
+                    },
+                    {
+                        "name": "ResetLastRotation",
+                        "excluded": true
+                    },
+                    {
+                        "name": "ResetLastPositionAndRotation",
+                        "excluded": false
+                    },
+                    {
+                        "name": "GetLastMesh",
+                        "excluded": true
+                    },
+                    {
+                        "name": "MatchRectTransformWithBounds",
+                        "excluded": true
+                    },
+                    {
+                        "name": "MatchRectTransformSingleRenderer",
+                        "excluded": true
+                    },
+                    {
+                        "name": "MatchRectTransformMultipleRenderers",
+                        "excluded": true
+                    },
+                    {
+                        "name": "SetRectTransformBounds",
+                        "excluded": true
+                    },
+                    {
+                        "name": "Clear",
+                        "excluded": true
+                    },
+                    {
+                        "name": "TrimRenderers",
+                        "excluded": true
+                    },
+                    {
+                        "name": "Initialize",
+                        "excluded": false
+                    },
+                    {
+                        "name": "PrepareInstructionsAndRenderers",
+                        "excluded": false
+                    },
+                    {
+                        "name": "UpdateMesh",
+                        "excluded": false
+                    },
+                    {
+                        "name": "UpdateMeshToInstructions",
+                        "excluded": false
+                    },
+                    {
+                        "name": "HasMultipleSubmeshInstructions",
+                        "excluded": true
+                    },
+                    {
+                        "name": "InitMeshBuffers",
+                        "excluded": false
+                    },
+                    {
+                        "name": "DisposeMeshBuffers",
+                        "excluded": true
+                    },
+                    {
+                        "name": "UpdateMeshSingleCanvasRenderer",
+                        "excluded": false
+                    },
+                    {
+                        "name": "UpdateMaterialsMultipleCanvasRenderers",
+                        "excluded": true
+                    },
+                    {
+                        "name": "UpdateMeshMultipleCanvasRenderers",
+                        "excluded": true
+                    },
+                    {
+                        "name": "HandleOnDemandLoading",
+                        "excluded": false
+                    },
+                    {
+                        "name": "EnsureCanvasRendererCount",
+                        "excluded": true
+                    },
+                    {
+                        "name": "PrepareRendererGameObjects",
+                        "excluded": true
+                    },
+                    {
+                        "name": "DisableUnusedCanvasRenderers",
+                        "excluded": true
+                    },
+                    {
+                        "name": "EnsureMeshesCount",
+                        "excluded": true
+                    },
+                    {
+                        "name": "EnsureUsedTexturesAndMaterialsCount",
+                        "excluded": true
+                    },
+                    {
+                        "name": "DestroyMeshes",
+                        "excluded": true
+                    },
+                    {
+                        "name": "EnsureSeparatorPartCount",
+                        "excluded": true
+                    },
+                    {
+                        "name": "UpdateSeparatorPartParents",
+                        "excluded": true
+                    },
+                    {
+                        "name": "SetScaledPivotOffset",
+                        "excluded": true
+                    },
+                    {
+                        "name": "GetLayoutScale",
+                        "excluded": true
+                    },
+                    {
+                        "name": "GetEffectiveLayoutMode",
+                        "excluded": true
+                    },
+                    {
+                        "name": "GetCurrentRectSize",
+                        "excluded": true
+                    }
+                ]
+            },
+            {
+                "className": "UnityEngine.UI.SetPropertyUtility",
+                "staticMethods": [],
+                "instanceMethods": [
+                    {
+                        "name": "SetColor",
+                        "excluded": true
+                    },
+                    {
+                        "name": "SetStruct",
+                        "excluded": false
+                    },
+                    {
+                        "name": "SetClass",
+                        "excluded": true
+                    }
+                ]
+            },
+            {
+                "className": "UnityEngine.UI.LayoutElement",
+                "staticMethods": [],
+                "instanceMethods": [
+                    {
+                        "name": "minWidth#get",
+                        "excluded": true
+                    },
+                    {
+                        "name": "minWidth#set",
+                        "excluded": true
+                    },
+                    {
+                        "name": "minHeight#get",
+                        "excluded": true
+                    },
+                    {
+                        "name": "minHeight#set",
+                        "excluded": true
+                    },
+                    {
+                        "name": "preferredWidth#get",
+                        "excluded": true
+                    },
+                    {
+                        "name": "preferredWidth#set",
+                        "excluded": true
+                    },
+                    {
+                        "name": "preferredHeight#get",
+                        "excluded": true
+                    },
+                    {
+                        "name": "preferredHeight#set",
+                        "excluded": true
+                    },
+                    {
+                        "name": "flexibleWidth#get",
+                        "excluded": true
+                    },
+                    {
+                        "name": "flexibleWidth#set",
+                        "excluded": true
+                    },
+                    {
+                        "name": "flexibleHeight#get",
+                        "excluded": true
+                    },
+                    {
+                        "name": "flexibleHeight#set",
+                        "excluded": true
+                    },
+                    {
+                        "name": "layoutPriority#get",
+                        "excluded": true
+                    },
+                    {
+                        "name": "ignoreLayout#get",
+                        "excluded": true
+                    },
+                    {
+                        "name": "ignoreLayout#set",
+                        "excluded": false
+                    },
+                    {
+                        "name": "init",
+                        "excluded": false
+                    },
+                    {
+                        "name": "OnEnable",
+                        "excluded": false
+                    },
+                    {
+                        "name": "OnDisable",
+                        "excluded": false
+                    },
+                    {
+                        "name": "OnDidApplyAnimationProperties",
+                        "excluded": true
+                    },
+                    {
+                        "name": "OnTransformParentChanged",
+                        "excluded": true
+                    },
+                    {
+                        "name": "CalculateLayoutInputHorizontal",
+                        "excluded": true
+                    },
+                    {
+                        "name": "CalculateLayoutInputVertical",
+                        "excluded": true
+                    },
+                    {
+                        "name": "SetDirty",
+                        "excluded": false
+                    }
+                ]
+            },
+            {
+                "className": "Spine.Unity.SkeletonExtensions",
+                "staticMethods": [],
+                "instanceMethods": [
+                    {
+                        "name": "init",
+                        "excluded": false
+                    },
+                    {
+                        "name": "GetColor$2",
+                        "excluded": true
+                    },
+                    {
+                        "name": "GetColor$1",
+                        "excluded": true
+                    },
+                    {
+                        "name": "GetColor",
+                        "excluded": true
+                    },
+                    {
+                        "name": "GetColor$3",
+                        "excluded": true
+                    },
+                    {
+                        "name": "GetColorTintBlack",
+                        "excluded": true
+                    },
+                    {
+                        "name": "SetColor$4",
+                        "excluded": false
+                    },
+                    {
+                        "name": "SetColor$5",
+                        "excluded": true
+                    },
+                    {
+                        "name": "SetColor$6",
+                        "excluded": true
+                    },
+                    {
+                        "name": "SetColor$7",
+                        "excluded": true
+                    },
+                    {
+                        "name": "SetColor$2",
+                        "excluded": true
+                    },
+                    {
+                        "name": "SetColor$3",
+                        "excluded": true
+                    },
+                    {
+                        "name": "SetColor",
+                        "excluded": true
+                    },
+                    {
+                        "name": "SetColor$1",
+                        "excluded": true
+                    },
+                    {
+                        "name": "SetLocalScale",
+                        "excluded": true
+                    },
+                    {
+                        "name": "GetMatrix4x4",
+                        "excluded": true
+                    },
+                    {
+                        "name": "SetLocalPosition",
+                        "excluded": true
+                    },
+                    {
+                        "name": "SetLocalPosition$1",
+                        "excluded": true
+                    },
+                    {
+                        "name": "GetLocalPosition",
+                        "excluded": true
+                    },
+                    {
+                        "name": "GetSkeletonSpacePosition",
+                        "excluded": true
+                    },
+                    {
+                        "name": "GetSkeletonSpacePosition$1",
+                        "excluded": true
+                    },
+                    {
+                        "name": "GetWorldPosition",
+                        "excluded": true
+                    },
+                    {
+                        "name": "GetWorldPosition$1",
+                        "excluded": true
+                    },
+                    {
+                        "name": "GetWorldPosition$2",
+                        "excluded": true
+                    },
+                    {
+                        "name": "GetWorldPosition$4",
+                        "excluded": true
+                    },
+                    {
+                        "name": "GetWorldPosition$3",
+                        "excluded": true
+                    },
+                    {
+                        "name": "GetQuaternion",
+                        "excluded": true
+                    },
+                    {
+                        "name": "GetLocalQuaternion",
+                        "excluded": true
+                    },
+                    {
+                        "name": "GetLocalScale",
+                        "excluded": true
+                    },
+                    {
+                        "name": "GetWorldToLocalMatrix",
+                        "excluded": true
+                    },
+                    {
+                        "name": "WorldToLocal",
+                        "excluded": true
+                    },
+                    {
+                        "name": "SetPositionSkeletonSpace",
+                        "excluded": true
+                    },
+                    {
+                        "name": "GetMaterial",
+                        "excluded": true
+                    },
+                    {
+                        "name": "GetLocalVertices",
+                        "excluded": true
+                    },
+                    {
+                        "name": "GetWorldVertices",
+                        "excluded": true
+                    }
+                ]
+            },
+            {
+                "className": "Spine.PathAttachment",
+                "staticMethods": [],
+                "instanceMethods": [
+                    {
+                        "name": "Lengths#get",
+                        "excluded": true
+                    },
+                    {
+                        "name": "Lengths#set",
+                        "excluded": true
+                    },
+                    {
+                        "name": "Closed#get",
+                        "excluded": false
+                    },
+                    {
+                        "name": "Closed#set",
+                        "excluded": true
+                    },
+                    {
+                        "name": "ConstantSpeed#get",
+                        "excluded": false
+                    },
+                    {
+                        "name": "ConstantSpeed#set",
+                        "excluded": true
+                    },
+                    {
+                        "name": "$ctor1",
+                        "excluded": false
+                    },
+                    {
+                        "name": "ctor",
+                        "excluded": true
+                    },
+                    {
+                        "name": "Copy",
+                        "excluded": true
+                    }
+                ]
+            },
+            {
+                "className": "Spine.PathConstraintPositionTimeline",
+                "staticMethods": [],
+                "instanceMethods": [
+                    {
+                        "name": "PathConstraintIndex#get",
+                        "excluded": true
+                    },
+                    {
+                        "name": "ctor",
+                        "excluded": false
+                    },
+                    {
+                        "name": "Apply",
+                        "excluded": false
+                    }
+                ]
+            },
+            {
+                "className": "UnityEngine.ContextMenu",
+                "staticMethods": [],
+                "instanceMethods": [
+                    {
+                        "name": "ctor",
+                        "excluded": false
+                    },
+                    {
+                        "name": "$ctor1",
+                        "excluded": false
+                    },
+                    {
+                        "name": "$ctor2",
+                        "excluded": false
+                    }
+                ]
             }
         ],
         "stubberDataList": [],
@@ -47746,7 +48706,7 @@
                         "startTime": "00:00.000",
                         "endTime": "00:00.000",
                         "lengthInSeconds": 0.0,
-                        "bitrate": 128,
+                        "bitrate": 8,
                         "script": "",
                         "ext": "",
                         "name": "Assets/_Game/Sounds/SFX/BGM_HOME.ogg"
@@ -47756,10 +48716,350 @@
                         "startTime": "00:00.000",
                         "endTime": "00:00.000",
                         "lengthInSeconds": 0.0,
-                        "bitrate": 128,
+                        "bitrate": 8,
                         "script": "",
                         "ext": "",
                         "name": "Assets/_Game/Sounds/SFX/BGM_INGAME.ogg"
+                    },
+                    {
+                        "channels": 1,
+                        "startTime": "00:00.000",
+                        "endTime": "00:30.000",
+                        "lengthInSeconds": 30.0,
+                        "bitrate": 8,
+                        "script": "",
+                        "ext": "",
+                        "name": "Assets/_Game/Sounds/SFX/add_nest.ogg"
+                    },
+                    {
+                        "channels": 1,
+                        "startTime": "00:00.000",
+                        "endTime": "00:00.000",
+                        "lengthInSeconds": 0.0,
+                        "bitrate": 8,
+                        "script": "",
+                        "ext": "",
+                        "name": "Assets/_Game/Sounds/SFX/win.ogg"
+                    },
+                    {
+                        "channels": 1,
+                        "startTime": "00:00.000",
+                        "endTime": "00:00.000",
+                        "lengthInSeconds": 0.0,
+                        "bitrate": 8,
+                        "script": "",
+                        "ext": "",
+                        "name": "Assets/_Game/Sounds/SFX/coins_appear.ogg"
+                    },
+                    {
+                        "channels": 1,
+                        "startTime": "00:00.000",
+                        "endTime": "00:00.000",
+                        "lengthInSeconds": 0.0,
+                        "bitrate": 8,
+                        "script": "",
+                        "ext": "",
+                        "name": "Assets/_Game/Sounds/SFX/level_chest_sound.ogg"
+                    },
+                    {
+                        "channels": 1,
+                        "startTime": "00:00.000",
+                        "endTime": "00:00.000",
+                        "lengthInSeconds": 0.0,
+                        "bitrate": 8,
+                        "script": "",
+                        "ext": "",
+                        "name": "Assets/_Game/Sounds/SFX/extreme_hard_level.ogg"
+                    },
+                    {
+                        "channels": 1,
+                        "startTime": "00:00.000",
+                        "endTime": "00:00.000",
+                        "lengthInSeconds": 0.0,
+                        "bitrate": 8,
+                        "script": "",
+                        "ext": "",
+                        "name": "Assets/_Game/Sounds/SFX/ui_unlock_booster.ogg"
+                    },
+                    {
+                        "channels": 1,
+                        "startTime": "00:00.000",
+                        "endTime": "00:00.000",
+                        "lengthInSeconds": 0.0,
+                        "bitrate": 8,
+                        "script": "",
+                        "ext": "",
+                        "name": "Assets/_Game/Sounds/SFX/sort_complete.ogg"
+                    },
+                    {
+                        "channels": 1,
+                        "startTime": "00:00.000",
+                        "endTime": "00:00.000",
+                        "lengthInSeconds": 0.0,
+                        "bitrate": 8,
+                        "script": "",
+                        "ext": "",
+                        "name": "Assets/_Game/Sounds/SFX/Pop Prize 1.ogg"
+                    },
+                    {
+                        "channels": 1,
+                        "startTime": "00:00.000",
+                        "endTime": "00:00.000",
+                        "lengthInSeconds": 0.0,
+                        "bitrate": 8,
+                        "script": "",
+                        "ext": "",
+                        "name": "Assets/_Game/Sounds/SFX/fail.mp3"
+                    },
+                    {
+                        "channels": 1,
+                        "startTime": "00:00.000",
+                        "endTime": "00:00.000",
+                        "lengthInSeconds": 0.0,
+                        "bitrate": 8,
+                        "script": "",
+                        "ext": "",
+                        "name": "Assets/_Game/Sounds/SFX/Pop Prize 4.ogg"
+                    },
+                    {
+                        "channels": 1,
+                        "startTime": "00:00.000",
+                        "endTime": "00:00.000",
+                        "lengthInSeconds": 0.0,
+                        "bitrate": 8,
+                        "script": "",
+                        "ext": "",
+                        "name": "Assets/_Game/Sounds/SFX/Pop Prize 3.ogg"
+                    },
+                    {
+                        "channels": 1,
+                        "startTime": "00:00.000",
+                        "endTime": "00:00.000",
+                        "lengthInSeconds": 0.0,
+                        "bitrate": 8,
+                        "script": "",
+                        "ext": "",
+                        "name": "Assets/_Game/Sounds/SFX/booster_appear.mp3"
+                    },
+                    {
+                        "channels": 1,
+                        "startTime": "00:00.000",
+                        "endTime": "00:00.000",
+                        "lengthInSeconds": 0.0,
+                        "bitrate": 8,
+                        "script": "",
+                        "ext": "",
+                        "name": "Assets/_Game/Sounds/SFX/coin_counts.ogg"
+                    },
+                    {
+                        "channels": 1,
+                        "startTime": "00:00.000",
+                        "endTime": "00:00.000",
+                        "lengthInSeconds": 0.0,
+                        "bitrate": 8,
+                        "script": "",
+                        "ext": "",
+                        "name": "Assets/_Game/Sounds/SFX/Pop Prize 2.ogg"
+                    },
+                    {
+                        "channels": 1,
+                        "startTime": "00:00.000",
+                        "endTime": "00:00.000",
+                        "lengthInSeconds": 0.0,
+                        "bitrate": 8,
+                        "script": "",
+                        "ext": "",
+                        "name": "Assets/_Game/Sounds/SFX/sfx_LvChange.ogg"
+                    },
+                    {
+                        "channels": 1,
+                        "startTime": "00:00.000",
+                        "endTime": "00:00.000",
+                        "lengthInSeconds": 0.0,
+                        "bitrate": 8,
+                        "script": "",
+                        "ext": "",
+                        "name": "Assets/_Game/Sounds/SFX/bird_fly.ogg"
+                    },
+                    {
+                        "channels": 1,
+                        "startTime": "00:00.000",
+                        "endTime": "00:00.000",
+                        "lengthInSeconds": 0.0,
+                        "bitrate": 8,
+                        "script": "",
+                        "ext": "",
+                        "name": "Assets/_Game/Sounds/SFX/coin.ogg"
+                    },
+                    {
+                        "channels": 1,
+                        "startTime": "00:00.000",
+                        "endTime": "00:00.000",
+                        "lengthInSeconds": 0.0,
+                        "bitrate": 8,
+                        "script": "",
+                        "ext": "",
+                        "name": "Assets/_Game/Sounds/Win_Fireworks1.mp3"
+                    },
+                    {
+                        "channels": 1,
+                        "startTime": "00:00.000",
+                        "endTime": "00:00.000",
+                        "lengthInSeconds": 0.0,
+                        "bitrate": 8,
+                        "script": "",
+                        "ext": "",
+                        "name": "Assets/_Game/Sounds/SFX/hidden_reveal.ogg"
+                    },
+                    {
+                        "channels": 1,
+                        "startTime": "00:00.000",
+                        "endTime": "00:00.000",
+                        "lengthInSeconds": 0.0,
+                        "bitrate": 8,
+                        "script": "",
+                        "ext": "",
+                        "name": "Assets/_Game/Sounds/SFX/Pop Prize 5.ogg"
+                    },
+                    {
+                        "channels": 1,
+                        "startTime": "00:00.000",
+                        "endTime": "00:00.000",
+                        "lengthInSeconds": 0.0,
+                        "bitrate": 8,
+                        "script": "",
+                        "ext": "",
+                        "name": "Assets/_Game/Sounds/SFX/egg_break.ogg"
+                    },
+                    {
+                        "channels": 1,
+                        "startTime": "00:00.000",
+                        "endTime": "00:00.000",
+                        "lengthInSeconds": 0.0,
+                        "bitrate": 8,
+                        "script": "",
+                        "ext": "",
+                        "name": "Assets/_Game/Sounds/Win_Fireworks2.mp3"
+                    },
+                    {
+                        "channels": 1,
+                        "startTime": "00:00.000",
+                        "endTime": "00:00.000",
+                        "lengthInSeconds": 0.0,
+                        "bitrate": 8,
+                        "script": "",
+                        "ext": "",
+                        "name": "Assets/_Game/Sounds/SFX/loading.ogg"
+                    },
+                    {
+                        "channels": 1,
+                        "startTime": "00:00.000",
+                        "endTime": "00:00.000",
+                        "lengthInSeconds": 0.0,
+                        "bitrate": 8,
+                        "script": "",
+                        "ext": "",
+                        "name": "Assets/_Game/Sounds/SFX/ice_breaking.ogg"
+                    },
+                    {
+                        "channels": 1,
+                        "startTime": "00:00.000",
+                        "endTime": "00:00.000",
+                        "lengthInSeconds": 0.0,
+                        "bitrate": 8,
+                        "script": "",
+                        "ext": "",
+                        "name": "Assets/_Game/Sounds/SFX/ingame_bird_land_3.ogg"
+                    },
+                    {
+                        "channels": 1,
+                        "startTime": "00:00.000",
+                        "endTime": "00:00.000",
+                        "lengthInSeconds": 0.0,
+                        "bitrate": 8,
+                        "script": "",
+                        "ext": "",
+                        "name": "Assets/_Game/Sounds/SFX/progession_bar.ogg"
+                    },
+                    {
+                        "channels": 1,
+                        "startTime": "00:00.000",
+                        "endTime": "00:00.000",
+                        "lengthInSeconds": 0.0,
+                        "bitrate": 8,
+                        "script": "",
+                        "ext": "",
+                        "name": "Assets/_Game/Sounds/SFX/booster_collect.ogg"
+                    },
+                    {
+                        "channels": 1,
+                        "startTime": "00:00.000",
+                        "endTime": "00:00.000",
+                        "lengthInSeconds": 0.0,
+                        "bitrate": 8,
+                        "script": "",
+                        "ext": "",
+                        "name": "Assets/_Game/Sounds/SFX/ingame_bird_land_2.ogg"
+                    },
+                    {
+                        "channels": 1,
+                        "startTime": "00:00.000",
+                        "endTime": "00:00.000",
+                        "lengthInSeconds": 0.0,
+                        "bitrate": 8,
+                        "script": "",
+                        "ext": "",
+                        "name": "Assets/_Game/Sounds/SFX/tick.ogg"
+                    },
+                    {
+                        "channels": 1,
+                        "startTime": "00:00.000",
+                        "endTime": "00:00.000",
+                        "lengthInSeconds": 0.0,
+                        "bitrate": 8,
+                        "script": "",
+                        "ext": "",
+                        "name": "Assets/_Game/Sounds/SFX/unlock.ogg"
+                    },
+                    {
+                        "channels": 1,
+                        "startTime": "00:00.000",
+                        "endTime": "00:00.000",
+                        "lengthInSeconds": 0.0,
+                        "bitrate": 8,
+                        "script": "",
+                        "ext": "",
+                        "name": "Assets/_Game/Sounds/SFX/ingame_bird_land_1.ogg"
+                    },
+                    {
+                        "channels": 1,
+                        "startTime": "00:00.000",
+                        "endTime": "00:00.000",
+                        "lengthInSeconds": 0.0,
+                        "bitrate": 8,
+                        "script": "",
+                        "ext": "",
+                        "name": "Assets/_Game/Sounds/SFX/net.wav"
+                    },
+                    {
+                        "channels": 1,
+                        "startTime": "00:00.000",
+                        "endTime": "00:00.000",
+                        "lengthInSeconds": 0.0,
+                        "bitrate": 8,
+                        "script": "",
+                        "ext": "",
+                        "name": "Assets/_Game/Sounds/SFX/popup_show.ogg"
+                    },
+                    {
+                        "channels": 1,
+                        "startTime": "00:00.000",
+                        "endTime": "00:00.000",
+                        "lengthInSeconds": 0.0,
+                        "bitrate": 8,
+                        "script": "",
+                        "ext": "",
+                        "name": "Assets/_Game/Sounds/SFX/tap_button.ogg"
                     }
                 ]
             },

@@ -198,20 +198,11 @@ public class TopContainer : Singleton<TopContainer>
     public void TriggerLose(LoseReason reason)
     {
         if (hasEnded) return;
-        // DataBucketEvent.Ins.SetLoseBy(reason);
-        // switch (reason)
-        // {
-        //     case LoseReason.OutOfSpace:
-        //         UIManager.Ins.OpenUI<OutOfSpaceUI>();
-        //         break;
-        //     case LoseReason.TimeUp:
-        //         UIManager.Ins.OpenUI<OutOfTimeUI>();
-        //         break;
-        //     default:
-        //         hasEnded = true;
-        //         UIManager.Ins.OpenUI<LoseUI>();
-        //         break;
-        // }
+
+        hasEnded = true;
+        if (dockContainer != null) dockContainer.SetEnded();
+        Debug.Log($"LOSE - {reason}", this);
+        if (GameplayUI.Ins != null) GameplayUI.Ins.ShowLose();
     }
     public bool TryUnlockDock(BirdDock dock)
     {

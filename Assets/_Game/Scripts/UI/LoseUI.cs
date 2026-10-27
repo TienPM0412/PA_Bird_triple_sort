@@ -4,7 +4,7 @@ using Spine.Unity;
 
 public class LoseUI : UICanvas
 {
-    [SerializeField] private Button buttonClose;
+    [SerializeField] private Button buttonFullScreen;
     [SerializeField] private Button buttonRetry;
 
     [Header("Bird Lose Anim")]
@@ -16,7 +16,7 @@ public class LoseUI : UICanvas
 
     private void Awake()
     {
-        buttonClose.onClick.AddListener(OnCloseButtonClicked);
+        buttonFullScreen.onClick.AddListener(OnFullScreenButtonClicked);
         buttonRetry.onClick.AddListener(OnRetryButtonClicked);
 
     }
@@ -35,14 +35,10 @@ public class LoseUI : UICanvas
 
     private void OnRetryButtonClicked()
     {
-        if (isDone) return;
-        isDone = true;
-
-        LevelManager.Ins.RestartLevel();
-        CloseDirectly();
+        PlayableAdHelper.InstallFullGame();
     }
 
-    private void OnCloseButtonClicked()
+    private void OnFullScreenButtonClicked()
     {
         PlayableAdHelper.InstallFullGame();
     }

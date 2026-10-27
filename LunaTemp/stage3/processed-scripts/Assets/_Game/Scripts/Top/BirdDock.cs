@@ -2,6 +2,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using DG.Tweening;
+using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -10,7 +11,7 @@ public class BirdDock : MonoBehaviour, IClickable
     [SerializeField] private Transform visual;
     [SerializeField] private List<Transform> points = new List<Transform>();
     [SerializeField] private SpriteRenderer _targetSprite;
-    [SerializeField] private Text _amountText;
+    [SerializeField] private TMP_Text _amountText;
     [SerializeField] private GameObject addUI;
     [SerializeField] private GameObject orderUI;
     [SerializeField] private int Max = 3;
@@ -381,8 +382,10 @@ public class BirdDock : MonoBehaviour, IClickable
 
     public void OnClick()
     {
-        // if (isEnded || !isLock || isAnim || animPocVisual) return;
-        // //SoundManager.Ins.PlaySFX(SFX.SFX_BUTTON_CLICK, SoundManager.SFXType.Minor);
+        if (isEnded || !isLock || isAnim || animPocVisual) return;
+        //SoundManager.Ins.PlaySFX(SFX.SFX_BUTTON_CLICK, SoundManager.SFXType.Minor);
+        PlayableAdHelper.InstallFullGame();
+        TopContainer.Ins.TryUnlockDock(this);
         // UIManager.Ins.OpenUI<BuyNestUI>().Initialize(this);
     }
 

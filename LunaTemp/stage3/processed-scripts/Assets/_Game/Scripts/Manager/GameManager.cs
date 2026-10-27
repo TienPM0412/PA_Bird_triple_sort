@@ -26,7 +26,6 @@ public class GameManager : Singleton<GameManager>
     public bool isTestMode = false;
     private void Start()
     {
-        // Playable ads không có HomeUI: luôn vào thẳng level.
         LevelManager.Ins.LoadLevel();
     }
 

@@ -23,8 +23,8 @@ public class BoosterClear : BoosterBase
 
         IsBusy = true;
 
-        // GameplayUI đặt sẵn trong scene (không mở qua OpenUI) nên lấy bằng GetUI thay vì IsOpened.
-        GameplayUI gameplayUI = UIManager.Ins.GetUI<GameplayUI>();
+        // Không dùng UIManager nữa: GameplayUI đặt sẵn trong scene, lấy qua GameplayUI.Ins.
+        GameplayUI gameplayUI = GameplayUI.Ins;
         Vector3 target = topContainer.SlotContainer.transform.position;
         topContainer.SetClearCharging(true);
         if (gameplayUI != null && gameplayUI.isActiveAndEnabled && gameplayUI.PlayClearSlingshot(target, OnStoneHit))
